@@ -5916,3 +5916,9 @@ td.visible-print {
 
 footer h3,footer p{
 color: #d7d7d7;}
+
+#mappa {
+floating:left;}
+
+#location {
+width:250px;}
