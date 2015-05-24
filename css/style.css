@@ -2594,8 +2594,8 @@ ul.ft-link li a i {
 .profile-widget img {
    border-radius: 50%;
    -webkit-border-radius: 50%;
-    width: 62px;
-    height: 62px;
+    width: 150px;
+    height: 150px;
     /*display: inline-block;*/
 }
 
@@ -3415,8 +3415,9 @@ ul.inbox-pagination li {
 }
 
 .bio-graph-heading {
-    background: #263a4f;
+    background: #077AA7;
     color: #fff;
+    font-family: "Play";
     text-align: center;
     font-style: italic;
     padding: 40px 110px;
