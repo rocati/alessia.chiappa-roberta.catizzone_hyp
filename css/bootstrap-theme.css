@@ -284,7 +284,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #0055b3;
+  color: #00a0df;
   text-decoration: underline;
 }
 a:focus {
@@ -336,6 +336,7 @@ hr {
 }
 p {
   margin: 0 0 10px;
+    font-family: "Play";
 }
 .lead {
   margin-bottom: 20px;
@@ -393,7 +394,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: Lato;
+  font-family: "Bebas";
   font-weight: 400;
   line-height: 1.1;
 }
@@ -5907,8 +5908,11 @@ td.visible-print {
   }
 }
 .footer-bottom{
-position:relative;
-clear :both;
+    position:relative;
+    clear :both;
     height:200px;
-background-color: aqua;}
+    padding-top: 30px;
+    background-color: #c04901;}
 
+footer h3,footer p{
+color: #d7d7d7;}
