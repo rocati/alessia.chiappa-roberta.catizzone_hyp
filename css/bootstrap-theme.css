@@ -5918,7 +5918,34 @@ footer h3,footer p{
 color: #d7d7d7;}
 
 #mappa {
-floating:left;}
+    margin-left:510px;
+    margin-right:-510px;
+    margin-top: -574px;}
 
-#location {
-width:250px;}
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ff6000;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+.btn-outline {
+    margin-top: 15px;
+    border: solid 2px #fff;
+    font-size: 20px;
+    color: #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px ##ffa500;
+    color: #18bc9c;
+    background: #fff;
+}
