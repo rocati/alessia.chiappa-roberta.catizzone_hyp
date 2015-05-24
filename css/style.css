@@ -664,6 +664,10 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
   -webkit-box-shadow: none;
 }
 
+#blocco-corsi {
+    margin-bottom: 100px;
+}
+
 div[data-role="editor-toolbar"] {
   -webkit-user-select: none;
   -moz-user-select: none;
