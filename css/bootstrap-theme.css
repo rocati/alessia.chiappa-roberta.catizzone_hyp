@@ -1888,6 +1888,7 @@ fieldset[disabled] .btn-default.active {
   color: #ffffff;
   background-color: #007aff;
   border-color: #007aff;
+    font-family: "Play";
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -4667,6 +4668,7 @@ a.list-group-item:focus {
 .panel-heading {
   padding: 10px 15px;
   border-bottom: 1px solid transparent;  
+    font-size:24px;
 }
 .panel-title {
   margin-top: 0;
@@ -5946,6 +5948,19 @@ color: #d7d7d7;}
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px ##ffa500;
-    color: #18bc9c;
+    color: #ff6000;
     background: #fff;
+}
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    color: #fff
+    font-size: 20px;
+}
+
+#form-img{
+    float:right;
 }

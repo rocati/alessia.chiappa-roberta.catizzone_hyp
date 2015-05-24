@@ -21,7 +21,9 @@ h1,h2,h3,h4,h5{
     font-weight: 300;
 }
 label{
-    font-weight: 300;   
+    font-weight: 300;
+    font-family: "Play";
+    font-size:20px;
 }
 ul li {
     list-style: none;
