@@ -21,6 +21,18 @@
     <!-- Custom styles -->
     <link href="../css/style.css" rel="stylesheet">
     <link href="../css/style-responsive.css" rel="stylesheet" />
+      
+      
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn-acqua").click(function(){
+                $("#div-combat").hide();
+                $("#div-corpomente").hide();
+                $("#div-fitness").hide();
+            });
+        });
+    </script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 -->
     <!--[if lt IE 9]>
@@ -107,9 +119,9 @@
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
                       <ul class="sub">
-                          <li><a class="" href="form_component.html">Rocco</a></li>                          
-                          <li><a class="" href="form_validation.html">Petra</a></li>
-                          <li><a class="" href="form_validation.html">Sabrina</a></li>
+                          <li><a class="" href="">Rocco</a></li>                          
+                          <li><a class="" href="">Petra</a></li>
+                          <li><a class="" href="">Sabrina</a></li>
                       </ul>
                   </li>       
                   <li class="sub-menu">
@@ -118,18 +130,18 @@
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
                       <ul class="sub">
-                          <li><a class="" href="general.html">Piscina</a></li>
-                          <li><a class="" href="buttons.html">Area Fitness</a></li>
-                          <li><a class="" href="grids.html">Area Combat</a></li>
+                          <li><a class="" href="">Piscina</a></li>
+                          <li><a class="" href="">Area Fitness</a></li>
+                          <li><a class="" href="">Area Combat</a></li>
                       </ul>
                   </li>
                   <li>
-                      <a class="" href="widgets.html">
+                      <a class="" href="">
                           <span>Recensioni</span>
                       </a>
                   </li>
                   <li>                     
-                      <a class="" href="chart-chartjs.html">
+                      <a class="" href="">
                           <span>Macchine e Attrezzi</span>
                           
                       </a>
@@ -157,81 +169,95 @@
 			</div>
               <!-- page start-->
     <div class="tutti-i-corsi">
+        <td>
+            <div class="btn-group">
+                  <a class="btn btn-default" href=# title="Bootstrap 3 themes generator">Corsi</a>
+                  <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="" title="Bootstrap 3 themes generator"><span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href=# title="btn-acqua">Acqua</a></li>
+                    <li><a href=# title="btn-combat">Combat</a></li>
+                    <li><a href=# title="btn-condizionamento">Condizionamento</a></li>
+                    <li><a href=# title="btn-corpomente">Corpo e Mente</a></li>
+                     <!-- <li class="divider"></li>-->
+                  </ul>
+            </div><!-- /btn-group -->
+        </td>
+        
         <div class="container">
             <div class= "row">
-                <div class= "col-md-4">
-                    <div id="acqua" class="thumbnail">
-                        <h3>Acqua Fitness</h3>
+                <div id="div-acqua" class= "col-md-4">
+                    <div id="div-acqua" class="thumbnail">
+                        <a href=# target="acqua">Acqua Fitness</a>
                     </div>
                 </div>
-                <div id="acqua" class= "col-md-4">
+                <div id="div-acqua" class= "col-md-4">
                     <div class="thumbnail">
-                        <h3>Acqua Spinning</h3>
+                        <a href=# target="acqua">Acqua Spinning</a>
                     </div>
                 </div>
-                <div id="acqua" class= "col-md-4">
+                <div id="div-acqua" class= "col-md-4">
                     <div class="thumbnail">
-                        <h3>Acqua Zumba</h3>
+                        <a href=# target="acqua">Acqua Zumba</a>
                     </div>
                 </div>
-                <div id="combat" class= "col-md-4">
+                <div id="div-combat" class= "col-md-4">
                     <div class="thumbnail">
-                        <h3>Aero Fight</h3>
+                        <a href=# target="combat">Aero Fight</a>
                     </div>
                 </div>
-                <div id="combat" class= "col-md-4">
+                <div id="div-combat" class= "col-md-4">
                     <div class="thumbnail">
-                        <h3>Autodifesa</h3>
+                        <a href=# target="combat">Autodifesa</a>
                     </div>
                 </div>
-                <div id="combat" class= "col-md-4">
+                <div id="div-combat" class= "col-md-4">
                     <div class="thumbnail">
-                        <h3>Fit Boxe</h3>
+                        <a href=# target="combat">Fit Boxe</a>
                     </div>
                 </div>
-                <div id="fitness" class= "col-md-4">
+                <div id="div-fitness" class= "col-md-4">
                     <div class="thumbnail">
-                        <h3>GAG</h3>
+                        <a href=# target="fitness">GAG</a>
                     </div>
                 </div>
-                <div id="fitness" class= "col-md-4">
+                <div id="div-fitness" class= "col-md-4">
                     <div class="thumbnail">
-                        <h3>Joy Fit</h3>
+                        <a href=# target="fitness">Joy Fit</a>
                     </div>
                 </div>
-                <div id="acqua" class= "col-md-4">
+                <div id="div-acqua" class= "col-md-4">
                     <div class="thumbnail">
-                        <h3>Nuoto</h3>
+                        <a href=# target="acqua">Nuoto</a>
                     </div>
                 </div>
-                <div id="corpomente" class= "col-md-4">
+                <div id="div-corpomente" class= "col-md-4">
                     <div class="thumbnail">
-                        <h3>Pilates</h3>
+                       <a href=# target="corpomente">Pilates</a>
                     </div>
                 </div>
-                <div class= "col-md-4">
+                <div id="div-fitness"class= "col-md-4">
                     <div class="thumbnail">
-                        <h3>Spinning</h3>
+                        <a href=# target="fitness">Spinning</a>
                     </div>
                 </div>
-                <div id="combat" class= "col-md-4">
+                <div id="div-combat" class= "col-md-4">
                     <div class="thumbnail">
-                        <h3>Taekwondo</h3>
+                        <a href=# target="combat">Taekwondo</a>
                     </div>
                 </div>
-                <div id="corpomente" class= "col-md-4">
+                <div id="div-corpomente" class= "col-md-4">
                     <div class="thumbnail">
-                        <h3>Thai Chi Chuan</h3>
+                        <a href=# target="corpomente">Thai Chi Chuan</a>
                     </div>
                 </div>
-                <div id="corpomente" class= "col-md-4">
+                <div id="div-corpomente" class= "col-md-4">
                     <div class="thumbnail">
-                        <h3>Yoga</h3>
+                        <a href=# target="corpomente">Yoga</a>
                     </div>
                 </div>
-                <div id="fitness" class= "col-md-4">
+                <div id="div-fitness" class= "col-md-4">
                     <div class="thumbnail">
-                        <h3>Zumba Step</h3>
+                        <a href=# target="fitness">Zumba Step</a>
                     </div>
                 </div>
                     
