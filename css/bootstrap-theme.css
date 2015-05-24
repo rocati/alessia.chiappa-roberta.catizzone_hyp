@@ -2829,7 +2829,7 @@ input[type="button"].btn-block {
 .dropdown-menu > li > a:focus {
   text-decoration: none;
   color: #ffffff;
-  background-color: #007aff;
+  background-color: #ff6000;
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
@@ -5374,6 +5374,7 @@ body.modal-open,
 }
 .pull-right {
   float: right !important;
+  text-transform: uppercase;
 }
 .pull-left {
   float: left !important;
