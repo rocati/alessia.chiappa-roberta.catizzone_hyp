@@ -399,7 +399,18 @@ ul.sidebar-menu li.active a i {
     color: #fff;
 }
 
+#cat-sub {
+    margin-bottom: 30px;
+    margin-top: 2px;
+}
+#cat-on {
+    margin-bottom: 30px;
+}
 
+#cat-name{
+    margin-top: 3px;
+    text-align: right;
+}
 #sidebar ul > li > a .arrow {
     border-bottom: 4px solid transparent;
     border-left: 4px solid #A0A0A0;
