@@ -1820,6 +1820,7 @@ textarea.input-lg {
   -webkit-transition: all 0.15s;
   -moz-transition: all 0.15s;
   transition: all 0.15s;
+    font-family: "Play";
 }
 
 
@@ -1924,17 +1925,17 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-warning {
   color: #ffffff;
-  background-color: #ffcc00;
-  border-color: #ffcc00;
+  background-color: #ff6000;
+  border-color: #ff6000;
 }
 .btn-warning:hover,
 .btn-warning:focus,
 .btn-warning:active,
 .btn-warning.active,
 .open .dropdown-toggle.btn-warning {
-  color: #ffcc00;
+  color: #ff6000;
   background: transparent;
-  border-color: #ffcc00;
+  border-color: #ff6000;
 }
 .btn-warning:active,
 .btn-warning.active,
@@ -5912,12 +5913,11 @@ td.visible-print {
 .footer-bottom{
     position:relative;
     clear :both;
-    height:200px;
-    padding-top: 30px;
+    height:250px;
     background-color: #08132F;
 }
 
-footer h3,footer p{
+footer h1,footer h2,footer h3,footer h4,footer h5,footer h6,footer p{
 color: #d7d7d7;}
 
 #mappa {
@@ -5966,4 +5966,21 @@ a.active {
 #filtro{
     height: 5000 px;
     background-color: transparent;
+}
+
+.biograph-body{
+    font-family: "Play";
+}
+
+#profili-centrato{
+    margin-left: 150px;
+}
+
+#btn-profili-torna {
+    background-color: #ff6000;
+    border-color: #ff6000;
+}
+
+.row-in-footer{
+    margin-left: 60px;
 }
