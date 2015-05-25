@@ -5961,3 +5961,9 @@ a.active {
     color: #fff
     font-size: 20px;
 }
+
+
+#filtro{
+    height: 5000 px;
+    background-color: transparent;
+}
