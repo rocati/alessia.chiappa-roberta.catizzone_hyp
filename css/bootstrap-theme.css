@@ -5984,3 +5984,8 @@ a.active {
 .row-in-footer{
     margin-left: 60px;
 }
+
+ #box_trasparente{
+      background-color: rgba(255,255,0,0.2);
+        color:#FFF;
+}
