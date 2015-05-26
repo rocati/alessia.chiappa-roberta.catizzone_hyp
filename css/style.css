@@ -25,6 +25,11 @@ label{
     font-family: "Play";
     font-size:20px;
 }
+
+# label-form{
+font-size:10px;
+}
+
 ul li {
     list-style: none;
 }
@@ -263,7 +268,8 @@ table tr th { color: #688a7e;}
     width: 180px;
     height: 100%;
     position: fixed;
-    background: #bcc747;
+    background:  #BCC747 ;
+    background-size:auto;
 }}
 
 .nav-collapse.collapse {
@@ -4039,7 +4045,7 @@ ul.amounts li {
 }
 
 .form-horizontal .form-group {
-    border-bottom: 1px solid #eff2f7;
+   /* border-bottom: 1px solid #eff2f7;*/
     padding-bottom: 15px;
     margin-bottom: 15px;
 }

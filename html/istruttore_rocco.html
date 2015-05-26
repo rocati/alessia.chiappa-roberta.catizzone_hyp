@@ -14,9 +14,10 @@
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <!-- bootstrap theme -->
     <link href="../css/bootstrap-theme.css" rel="stylesheet">
-    <!--external css-->
+    <!--fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <!-- font icon -->
-    link href='http://fonts.googleapis.com/css?family=Chau+Philomene+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Chau+Philomene+One' rel='stylesheet' type='text/css'>
     <link href="../css/elegant-icons-style.css" rel="stylesheet" />
     <link href="../css/font-awesome.min.css" rel="stylesheet" />
     <!-- Custom styles -->
@@ -269,8 +270,12 @@ Ad oggi cintura nera di Taekwondo 7° Dan, con la qualifica Federale FITA di Mae
                 <div class="row">
                     
                     <div class="panel-body col-lg-10">
+                        <div class="panel-body col-lg-6">
                               <button type="button" class="btn btn-primary btn-lg btn-block" onClick="parent.location='/html/istruttore_petra.html'">Istruttore Precedente</button>
+                        </div>
+                        <div class="panel-body col-lg-6">
                               <button type="button" class="btn btn-primary btn-lg btn-block" onClick="parent.location='/html/istruttore_sabrina.html'">Istruttore Successivo</button>
+                        </div>
                               <button type="button" class="btn btn-warning btn-block">Torna agli Istruttori</button>
                           </div>
                     
@@ -287,24 +292,24 @@ Ad oggi cintura nera di Taekwondo 7° Dan, con la qualifica Federale FITA di Mae
             <footer class="text-center">
           <div class="footer-bottom" > 
                   <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h2> AREA LINK </h2>
+                    <div class="footer-col col-md-5" >
+                        <h2 id="area-link"> AREA LINK </h2>
                         <div class="row row-in-footer">
                             <div class="col-md-5">
-                                <h4>I corsi di Rocco</h4>
-                                <a href="#"> <p>Fitboxe</p></a>
-                                <a href="#"> <p>AeroFight</p></a>
-                                <a href="#"> <p>Taekwondo</p></a>                                
+                                <h3 id="area-link">I corsi di Rocco</h3>
+                                <a href="#"> <h4 id="area-link">Fitboxe</h4></a>
+                                <a href="#"> <h4 id="area-link">AeroFight</h4></a>
+                                <a href="#"> <h4 id="area-link">Taekwondo</h4></a>                                
                             </div>
                             <div class="col-md-5">
-                             <h4>Categorie</h4>
-                                <a href="#"> <p>Condizionamento</p></a>
-                                <a href="#"> <p>Cardio</p></a>   
+                             <h3 id="area-link">Categorie</h3>
+                                <a href="#"> <h4 id="area-link" >Condizionamento</h4></a>
+                                <a href="#"> <h4 id="area-link">Cardio</h4></a>   
                             </div>
                         </div>
                         
                     </div>
-                    <div class="footer-col col-md-4">
+                    <div class="footer-col col-md-2">
                         <h3>Orari</h3>
                         <p>dal Lunedì al Venerdì<br>7:00 - 22:00
                         <br>Sabato e Domenica<br>8:00 - 19:00<br>Sabato e Domenica</p>
@@ -312,7 +317,38 @@ Ad oggi cintura nera di Taekwondo 7° Dan, con la qualifica Federale FITA di Mae
                           
                     <div class="footer-col col-md-4">
                         <h3>LOGIN</h3>
-                        <p>devo inserire form e button</p>
+                         
+                              <form class="form-horizontal" role="form">
+                                  <div class="form-group">
+                                      <label for="inputEmail1" class="col-lg-2 control-label"></label>
+                                      <div class="col-lg-10">
+                                          <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                      <label for="inputPassword1" class="col-lg-2 control-label"></label>
+                                      <div class="col-lg-10">
+                                          <input type="password" class="form-control" id="inputPassword1" placeholder="Password">
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                      <div class="col-lg-offset-2 col-lg-2">
+                                          <div class="checkbox">
+                                              <label >
+                                                  <input type="checkbox">Ricordami
+                                              </label>
+                                      </div>
+                                          </div>
+                                        <div class="col-lg-offset-2 col-lg-1">
+                                                    <button type="submit" class="btn btn-danger">Sign in</button>
+                                                  </div>
+                                              <div class="col-lg-offset-2 col-lg-1">
+                                                    <button type="submit" class="btn btn-danger">Login</button>
+                                                  </div>
+                                      </div>
+                                  </div>
+                              </form>
+                          
                     </div>
                 </div>
           </div>

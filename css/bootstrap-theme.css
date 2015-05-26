@@ -1887,8 +1887,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #007aff;
-  border-color: #007aff;
+  background-color: #a92159;/*#007aff;*/
+  border-color: #a92159;
     font-family: "Play";
 }
 .btn-primary:hover,
@@ -1896,8 +1896,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  color: #007aff;
-  border-color: #007aff;
+  color: #a92159;/*#007aff;*/
+  border-color: #a92159;
   background: transparent;  
 }
 .btn-primary:active,
@@ -1925,17 +1925,17 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-warning {
   color: #ffffff;
-  background-color: #ff6000;
-  border-color: #ff6000;
+  background-color:#BCC747  /*#ff6000*/;
+  border-color: #BCC747 ;
 }
 .btn-warning:hover,
 .btn-warning:focus,
 .btn-warning:active,
 .btn-warning.active,
 .open .dropdown-toggle.btn-warning {
-  color: #ff6000;
+  color: #BCC747; /*#ff6000;*/
   background: transparent;
-  border-color: #ff6000;
+  border-color: #BCC747 ;
 }
 .btn-warning:active,
 .btn-warning.active,
@@ -5996,4 +5996,9 @@ a.active {
 
 .left{
     padding-left: 300px;
+}
+
+#area-link {
+    color:#E3F33B ;
+    text-shadow: 4px 4px 4px #211E1E;
 }
