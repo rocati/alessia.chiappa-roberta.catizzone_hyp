@@ -5985,7 +5985,10 @@ a.active {
     margin-left: 60px;
 }
 
- #box_trasparente{
-      background-color: rgba(255,255,0,0.2);
-        color:#FFF;
+
+#home{
+    font-family: 'Pacifico', cursive;
+    text-shadow: 4px 4px 4px #211E1E;
+    font-size: 100px;
+
 }
