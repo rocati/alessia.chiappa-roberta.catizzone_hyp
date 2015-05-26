@@ -2832,7 +2832,7 @@ input[type="button"].btn-block {
 .dropdown-menu > li > a:focus {
   text-decoration: none;
   color: #ffffff;
-  background-color: #ff6000;
+  background-color: #C3216C;
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
@@ -5914,7 +5914,8 @@ td.visible-print {
     position:relative;
     clear :both;
     height:250px;
-    background-color: #08132F;
+    /*background-color: #08132F;*/
+    background-image: url(../img/bg-footer.gif);
 }
 
 footer h1,footer h2,footer h3,footer h4,footer h5,footer h6,footer p{
