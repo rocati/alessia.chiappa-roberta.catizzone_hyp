@@ -42,6 +42,11 @@ html {
 body {
   margin: 0;
 }
+.body-home{
+    background: #FFF url("../img/tour-bg.png") repeat-x scroll 0% 0%;
+    /*background-image: url(../img/bg.jpg);*/
+    
+}
 a:focus {
   outline: thin dotted;
 }
@@ -5916,6 +5921,14 @@ td.visible-print {
     height:250px;
     /*background-color: #08132F;*/
     background-image: url(../img/bg-footer.gif);
+}
+.footer-home{
+    padding-left: 300px;
+    padding-right: 300px;
+    position:relative;
+    clear :both;
+    height:200px;
+    background-color: transparent;
 }
 
 footer h1,footer h2,footer h3,footer h4,footer h5,footer h6,footer p{
