@@ -43,7 +43,7 @@ body {
   margin: 0;
 }
 .body-home{
-    background: #FFF url("../img/tour-bg.png") repeat-x scroll 0% 0%;
+    background: #FFF url("../img/bg.jpg") repeat-x scroll 0% 0%;
     /*background-image: url(../img/bg.jpg);*/
 }
 .text-home{    
@@ -5935,6 +5935,7 @@ td.visible-print {
     position:relative;
     clear :both;
     max-height:800px;
+    min-height: 320px;
     /*background-color: #08132F;*/
     background-image: url(../img/bg-footer.gif);
 }
