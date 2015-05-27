@@ -5934,7 +5934,7 @@ td.visible-print {
 .footer-bottom{
     position:relative;
     clear :both;
-    height:250px;
+    max-height:800px;
     /*background-color: #08132F;*/
     background-image: url(../img/bg-footer.gif);
 }
@@ -5950,10 +5950,6 @@ td.visible-print {
 footer h1,footer h2,footer h3,footer h4,footer h5,footer h6,footer p{
 color: #d7d7d7;}
 
-#mappa {
-    margin-left:510px;
-    margin-right:-510px;
-    margin-top: -670px;}
 
 .btn-social {
     display: inline-block;
@@ -6021,10 +6017,6 @@ a.active {
     text-shadow: 4px 4px 4px #211E1E;
     font-size: 100px;
 
-}
-
-.left{
-    padding-left: 300px;
 }
 
 #area-link {
