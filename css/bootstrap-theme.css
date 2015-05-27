@@ -45,8 +45,19 @@ body {
 .body-home{
     background: #FFF url("../img/tour-bg.png") repeat-x scroll 0% 0%;
     /*background-image: url(../img/bg.jpg);*/
-    
 }
+.text-home{    
+    font-family: "Alfa Slab One";
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.home-section{
+    margin-bottom: 100px;
+    margin-top: 120px;
+}
+
+
 a:focus {
   outline: thin dotted;
 }
@@ -284,12 +295,14 @@ textarea {
   background-image: none;
 }
 a {
-  color: #007aff;
+    color: #CC417A;
+  /*color: #007aff;*/
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #00a0df;
+    color: #A92159;
+  color: /*#00a0df;*/
   text-decoration: underline;
 }
 a:focus {
@@ -341,7 +354,7 @@ hr {
 }
 p {
   margin: 0 0 10px;
-    font-family: "Play";
+  font-family: "Montserrat";
 }
 .lead {
   margin-bottom: 20px;
@@ -399,7 +412,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Bebas";
+  font-family: "Gloria Hallelujah";
+  text-shadow: 1px 1px 1px #685D5D;
   font-weight: 400;
   line-height: 1.1;
 }
@@ -1825,7 +1839,7 @@ textarea.input-lg {
   -webkit-transition: all 0.15s;
   -moz-transition: all 0.15s;
   transition: all 0.15s;
-    font-family: "Play";
+    font-family: "Montserrat";
 }
 
 
@@ -1894,7 +1908,7 @@ fieldset[disabled] .btn-default.active {
   color: #ffffff;
   background-color: #a92159;/*#007aff;*/
   border-color: #a92159;
-    font-family: "Play";
+    font-family: "Montserrat";
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -5383,7 +5397,9 @@ body.modal-open,
 }
 .pull-right {
   float: right !important;
-  text-transform: uppercase;
+    
+  /*text-transform: uppercase;*/
+ 
 }
 .pull-left {
   float: left !important;
@@ -5937,7 +5953,7 @@ color: #d7d7d7;}
 #mappa {
     margin-left:510px;
     margin-right:-510px;
-    margin-top: -574px;}
+    margin-top: -670px;}
 
 .btn-social {
     display: inline-block;
@@ -5983,7 +5999,7 @@ a.active {
 }
 
 .biograph-body{
-    font-family: "Play";
+    font-family: "Montserrat";
 }
 
 #profili-centrato{

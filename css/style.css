@@ -10,9 +10,9 @@ Website: http://geekslabs.com/
 @import url(line-icons.css);
 
 body {
-    color: #797979;
+    color: #57102c;
     background: #eeeeee;
-    font-family: "Bebas";
+    font-family: "Gloria Hallelujah";
     padding: 0px !important;
     margin: 0px !important;
     font-size:14px !important;    
@@ -22,7 +22,7 @@ h1,h2,h3,h4,h5{
 }
 label{
     font-weight: 300;
-    font-family: "Play";
+    font-family: "Montserrat";
     font-size:20px;
 }
 
@@ -35,6 +35,7 @@ ul li {
 }
 
 a, a:hover, a:focus {
+    font-size: 18px;
     text-decoration: none;
     outline: none;
     outline: 0;
@@ -291,7 +292,7 @@ ul.sidebar-menu {
 
 #sidebar > ul > li.active > ul.sub, #sidebar > ul > li > ul.sub > li > a {
     display: block;
-    background: #c04901;
+    background: #595f24;
     color:white;
 }
 
@@ -366,14 +367,14 @@ ul.sidebar-menu li a{
     transition: all 0.3s ease;
     /*border-right: 1px solid #D7D7D7;
     border-bottom: 1px solid #D7D7D7;*/
-    font-family: "Play";
+    font-family: "Montserrat";
 }
 /*ul.sidebar-menu li a i{
     position: relative;
     top: 2px;
 }*/
 ul.sidebar-menu li.active a, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus {
-    background: #de5400;
+    background: #878f35;
     color: #fff;
     display: block;
     /*border-radius: 4px;
@@ -905,10 +906,11 @@ div[data-role="editor-toolbar"] {
   border-bottom: none;
  /* opacity: 0.7;*/
   text-transform: uppercase;
-    font-size: 50px;
+  font-size: 100px;
+  font-family: "Bangers";
     /*AGGIUNTI*/
     color: #FFF;
-text-shadow: 1px 1px 1px #5A4A41;
+    text-shadow: 4px 4px 4px #211E1E;
 }
 .page-header i {
   color: #acb1b8;
@@ -1109,8 +1111,8 @@ text-shadow: 1px 1px 1px #5A4A41;
   line-height: 34px;
   padding: 0 15px;
   min-height: 34px;
-  border-left: 1px solid #DBF2F2 ; /*previous #ccc*/
-  border-right: 1px solid #DBF2F2 ;
+  border-left: 1px solid #BCC747 ; /*previous #ccc*/
+  border-right: 1px solid #BCC747 ;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;  
@@ -1185,9 +1187,9 @@ text-shadow: 1px 1px 1px #5A4A41;
   border-width: 1px 1px 2px;
   border-style: solid;
   border-top: none;
-  border-right-color: #DBF2F2 !important; /*previous #ccc*/
-  border-bottom-color: #DBF2F2 !important;
-  border-left-color: #DBF2F2 !important;
+  border-right-color: #BCC747 !important; /*previous #ccc*/
+  border-bottom-color: #BCC747 !important;
+  border-left-color: #BCC747 !important;
 }
 .panel .panel-body-map {
   border-width: 1px 1px 2px;
@@ -3448,9 +3450,10 @@ ul.inbox-pagination li {
 }
 
 .bio-graph-heading {
-    background: #077AA7;
+    /*background: #077AA7;*/
+    background-image: url("../img/bg-footer.gif");
     color: #fff;
-    font-family: "Play";
+    font-family: "Montserrat";
     text-align: center;
     font-style: italic;
     padding: 40px 110px;
@@ -3760,7 +3763,7 @@ ul.amounts li {
 
 /*panel heading color*/
 .panel-heading,.modal-header{
-    background: #dbf2f2;/*#F7F7F7;*/
+    background: #d0dd4d;/*#F7F7F7;*/
     color: #a92159;/*#688a7e;*/
 
 }
