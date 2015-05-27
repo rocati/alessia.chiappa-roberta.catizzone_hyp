@@ -15,7 +15,7 @@ function initializeJS() {
     jQuery(".scroll-panel").niceScroll({styler:"fb",cursorcolor:"#007AFF", cursorwidth: '3', cursorborderradius: '10px', background: '#F7F7F7', cursorborder: ''});
     
     //sidebar dropdown menu
-    jQuery('#sidebar .sub-menu > a').hover(function () {
+    jQuery('#sidebar .sub-menu > a').click(function () {
         var last = jQuery('.sub-menu.open', jQuery('#sidebar'));        
         jQuery('.menu-arrow').removeClass('arrow_carrot-right');
         jQuery('.sub', last).slideUp(200);
