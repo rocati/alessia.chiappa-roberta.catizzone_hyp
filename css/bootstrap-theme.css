@@ -220,6 +220,7 @@ table {
   }
   thead {
     display: table-header-group;
+    
   }
   tr,
   img {
@@ -6032,4 +6033,14 @@ a.active {
     font-size: 25px;
     text-transform: uppercase;
     text-shadow: 1px 1px 1px #211E1E;
+}
+
+.tab-livelli{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.tab-livelli-colonna{
+    color:#ED0F7D;
+    text-align: right;
 }
