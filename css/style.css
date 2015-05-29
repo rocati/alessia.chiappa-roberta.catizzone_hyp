@@ -931,9 +931,13 @@ div[data-role="editor-toolbar"] {
   -moz-border-radius: 0px;
   border-radius: 0px;
   height: 34px;
+  width: 100%;
   position: relative;  
   margin: 0 0 19px 0;
   overflow: hidden;
+  font-family: "Montserrat";
+  background-color: rgba(255, 255, 255, 0.7);
+  
 }
 .breadcrumb li {
   position: relative;
