@@ -15,8 +15,7 @@
     <!-- bootstrap theme -->
     <link href="../css/bootstrap-theme.css" rel="stylesheet">
     <!--fonts css-->
-      <link href='http://fonts.googleapis.com/css?family=Pacifico|Bangers|Montserrat|Gloria+Hallelujah' rel='stylesheet' type='text/css'>
-    <!-- font icon -->
+    <link href='http://fonts.googleapis.com/css?family=Pacifico|Bangers|Montserrat|Alfa+Slab+One' rel='stylesheet' type="text/css"> -->
     <link href="../css/elegant-icons-style.css" rel="stylesheet" />
     <link href="../css/font-awesome.min.css" rel="stylesheet" />
     <!-- Custom styles -->
@@ -71,10 +70,12 @@ echo "The time is " . date("h:i:sa");
                             Location
                         </a></li>
                     <li class="dropdown" >
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="tutti_corsi.html">
+                    <a  href="tutti_corsi.html" data-toggle="dropdown" class="dropdown-toggle">
                             Corsi
                         </a>
                         <ul class="dropdown-menu">
+                                <li><a href="tutti_corsi.html">Tutti i Corsi (A-Z)</a></li>
+                            <li><a href="tutti_corsi_livello.html">Tutti i Corsi (Livelli)</a></li>
                             <li><a href="fitboxe.html">FitBoxe</a></li>
                             <li><a href="pilates.html">Pilates</a></li>
                             <li><a href="acqua_fitness.html">AcquaFitness</a></li>
@@ -85,6 +86,7 @@ echo "The time is " . date("h:i:sa");
                             Categorie
                         </a>
                         <ul class="dropdown-menu">
+                            <li><a href="categorie.html">Tutti le Categorie</a></li>
                             <li><a href="#">Condizionamento</a></li>
                             <li><a href="#">Corpo e Mente</a></li>
                             <li><a href="#">Acqua</a></li>
@@ -94,50 +96,52 @@ echo "The time is " . date("h:i:sa");
                         </a></li>
                 </ul>
             </div>
+
       </header>      
       <!--header end-->
 
       <!--sidebar start-->
       <aside>
           <div id="sidebar"  class="nav-collapse ">
+
+              
               <!-- sidebar menu start-->
               <ul class="sidebar-menu">                
                   <li class="">
-                      <a class="" href=#>
+                      <a class="" href="#" >
                           <span>Planning</span>
                       </a>
                   </li>
 				  <li class="sub-menu">
-                      <a href="javascript:;" class="">
+                      <a href="#" class="">
                           <span>Istruttori</span>
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
-                      <ul class="sub">
+                       <ul class="sub">
                           <li><a class="" href="istruttore_rocco.html">Rocco</a></li>                          
                           <li><a class="" href="istruttore_petra.html">Petra</a></li>
                           <li><a class="" href="istruttore_sabrina.html">Sabrina</a></li>
                       </ul>
                   </li>       
                   <li class="sub-menu">
-                      <a href="javascript:;" class="">
+                      <a href="#" class="">
                           <span>Sale</span>
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
                       <ul class="sub">
-                          <li><a class="" href=#>Piscina</a></li>
-                          <li><a class="" href=#>Area Fitness</a></li>
-                          <li><a class="" href=#>Area Combat</a></li>
+                          <li><a class="" href="#">Piscina</a></li>
+                          <li><a class="" href="#">Area Fitness</a></li>
+                          <li><a class="" href="#">Area Combat</a></li>
                       </ul>
                   </li>
                   <li>
-                      <a class="" href=#>
+                      <a class="" href="#">
                           <span>Recensioni</span>
                       </a>
                   </li>
                   <li>                     
-                      <a class="" href=#>
+                      <a class="" href="#">
                           <span>Macchine  e  Attrezzi</span>
-                          
                       </a>
                                          
                   </li>
@@ -145,7 +149,6 @@ echo "The time is " . date("h:i:sa");
               </ul>
               <!-- sidebar menu end-->
           </div>
-          
       </aside>
       <!--sidebar end-->
 
@@ -154,11 +157,11 @@ echo "The time is " . date("h:i:sa");
           <section class="wrapper">
 		  <div class="row">
 				<div class="col-lg-12">
-					<h3 class="page-header"><i class="fa fa fa-bars"></i> CORSI</h3>
+					<h3 class="page-header">CORSI</h3>
 					<ol class="breadcrumb">
 						<li><i class="fa fa-home"></i><a href="../index.html">Home</a></li>
-						<li><i class="fa fa-bars"></i>Corsi</li>
-						<li><i class="fa fa-square-o"></i>AcquaFitness</li>
+						<li>Corsi</li>
+						<li>AcquaFitness</li>
 					</ol>
 				</div>
 			</div>

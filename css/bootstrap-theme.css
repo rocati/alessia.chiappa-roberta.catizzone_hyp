@@ -5956,8 +5956,8 @@ color: #d7d7d7;}
 
 .btn-social {
     display: inline-block;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     border: 2px solid #ff6000;
     border-radius: 100%;
     text-align: center;
@@ -5966,7 +5966,7 @@ color: #d7d7d7;}
 }
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #fff;
+    border: solid 2px #57102C;
     font-size: 20px;
     color: #fff;
     background: 0 0;
