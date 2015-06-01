@@ -131,7 +131,7 @@ hr.small {
     z-index: 1;
     position: fixed;
     top: 0;
-    right: 0;
+    /*right: 0;*/
 }
 
 #sidebar-wrapper.active {
