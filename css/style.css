@@ -422,6 +422,8 @@ ul.sidebar-menu li.active a i {
 #cat-name{
     margin-top: 3px;
     text-align: right;
+    color: #ED0F7D;
+    font-family: "Montserrat";  
 }
 #sidebar ul > li > a .arrow {
     border-bottom: 4px solid transparent;
