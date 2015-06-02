@@ -3477,6 +3477,8 @@ ul.inbox-pagination li {
 
 .bio-graph-info {
     color: #89817e;
+    
+  min-height: 300px;
 }
 
 .bio-graph-info h1 {
