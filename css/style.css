@@ -302,7 +302,7 @@ ul.sidebar-menu {
 }
 
 ul.sidebar-menu li ul.sub li{
-    background: #1F1F1F;
+    background-color: #D7E450 ;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
@@ -323,8 +323,9 @@ ul.sidebar-menu li ul.sub li a {
     -o-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    color: #d0d8df;
-    font-size: 14px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #7A7A7A;
+    font-size: 16px;
 }
 
 ul.sidebar-menu li ul.sub li a:hover, ul.sidebar-menu li ul.sub li.active a {
