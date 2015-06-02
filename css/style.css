@@ -579,7 +579,7 @@ a.logo span {
 }
 
 
-/*notification*/
+/*top nav*/
 
 #top_menu .nav > li, ul.top-menu > li {
     float: left;
@@ -1088,7 +1088,8 @@ div[data-role="editor-toolbar"] {
   color : #fff;
   /*background : #1a2732;
   background-color : #d2d2d2;*/
-  background :#FFF url("../img/header-bg.png") repeat-x scroll 0% 0%
+  background :#FFF url("../img/header-bg.png") repeat-x scroll 0% 0%;
+    
 }
 .facebook-bg {
   color: #fff;
