@@ -5403,6 +5403,7 @@ body.modal-open,
 }
 .pull-right {
   float: right !important;
+  padding-top: 1%;
     
   /*text-transform: uppercase;*/
  
