@@ -5942,8 +5942,8 @@ td.visible-print {
     clear :both;
     max-height:800px;
     min-height: 320px;
-    /*background-color: #08132F;*/
     background-image: url(../img/bg-footer.gif);
+    padding-right: 5%;
 }
 .footer-home{
     padding-left: 30%;
