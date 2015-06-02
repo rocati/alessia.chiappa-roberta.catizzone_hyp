@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,11 +10,16 @@
 
     <title>Big Gym - Corsi</title>
 
-    <!-- Bootstrap CSS -->    
+   <!-- Bootstrap CSS -->    
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <!-- bootstrap theme -->
     <link href="../css/bootstrap-theme.css" rel="stylesheet">
-        <!--fonts css-->
+    
+    <!-- sidebar js -->
+    <link rel="stylesheet" type="text/css" href="../css/side/demo.css" />
+	<link rel="stylesheet" type="text/css" href="../css/side/component.css" />
+      
+     <!--fonts css-->
    <link href="http://fonts.googleapis.com/css?family=Pacifico|Bangers|Montserrat|Gloria+Hallelujah" rel="stylesheet" type="text/css"> 
     <!-- font icon -->
     <link href="../css/elegant-icons-style.css" rel="stylesheet" />
@@ -22,7 +27,6 @@
     <!-- Custom styles -->
     <link href="../css/style.css" rel="stylesheet">
     <link href="../css/style-responsive.css" rel="stylesheet" />
-      
       
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>
@@ -170,145 +174,146 @@
         });        
 
     </script>
+
   </head>
 
   <body>
   <!-- container section start -->
-  <section id="container" class="">
-      <!--header start-->
+  <div id="st-container" class="st-container">
       
-      <header class="header dark-bg">
-            <div class="toggle-nav">
-                <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"></div>
-            </div>
-
-            <!--logo start-->
-            <a href="../index.html" class="logo">Big<span class="lite">Gym</span></a>
-            <!--logo end-->
-
-            <div class="nav search-row" id="top_menu">
-                <!--  search form start -->
-                <ul class="nav top-menu">                    
-                    <li>
-                        <form class="navbar-form">
-                            <input class="form-control" placeholder="Search" type="text">
-                        </form>
-                    </li>                    
-                </ul>
-                <!--  search form end -->                
-            </div>
-
-            <div class="top-nav notification-row">                
-                <!-- notificatoin dropdown start-->
-                <ul class="nav pull-right top-menu">
-                    <li ><a href="#">
-                            Big Gym
-                        </a></li>
-                    <li ><a href="location.html">
-                            Location
-                        </a></li>
-                    <li class="dropdown" >
-                    <a  href="tutti_corsi.html" data-toggle="dropdown" class="dropdown-toggle">
-                            Corsi
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="tutti_corsi.html">Tutti i Corsi (A-Z)</a></li>
-                            <li><a href="tutti_corsi_livello.html">Tutti i Corsi (Livelli)</a></li>
-                            <li><a href="fitboxe.html">FitBoxe</a></li>
-                            <li><a href="pilates.html">Pilates</a></li>
-                            <li><a href="acqua_fitness.html">AcquaFitness</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a data-toggle="dropdown" class="dropdown-toggle" href="categorie.html">
-                            Categorie
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="categorie.html">Tutti le Categorie</a></li>
-                            <li><a href="#">Condizionamento</a></li>
-                            <li><a href="#">Corpo e Mente</a></li>
-                            <li><a href="#">Acqua</a></li>
-                        </ul></li>
-                    <li><a href="#">
-                            Tariffe & Registrazione
-                        </a></li>
-                </ul>
-            </div>
-
-      </header>      
-      <!--header end-->
-
-      <!--sidebar start-->
-      <div id="pattern" class="pattern">
-        <div class="offcanvas-top">
-  		    <div class="o-content">
-          <div id="sidebar"  class="nav-collapse ">
-
-              
-              <!-- sidebar menu start-->
-              <ul class="sidebar-menu">                
-                  <li class="">
-                      <a class="" href="#" >
+      
+      <nav class="st-menu st-effect-5" id="menu-5">
+				<h1 id="side-menu">Menù</h1>
+				<ul class="sidebar-menu">                
+                  <li >
+                      <a href="#" >
                           <span>Planning</span>
                       </a>
                   </li>
 				  <li class="sub-menu">
-                      <a href="#" class="">
+                      <a href="#" >
                           <span>Istruttori</span>
-                          <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
                        <ul class="sub">
-                          <li><a class="" href="istruttore_rocco.html">Rocco</a></li>                          
-                          <li><a class="" href="istruttore_petra.html">Petra</a></li>
-                          <li><a class="" href="istruttore_sabrina.html">Sabrina</a></li>
+                          <li><a href="istruttore_rocco.html">Rocco</a></li>                          
+                          <li><a href="istruttore_petra.html">Petra</a></li>
+                          <li><a href="istruttore_sabrina.html">Sabrina</a></li>
                       </ul>
                   </li>       
                   <li class="sub-menu">
-                      <a href="#" class="">
+                      <a href="#">
                           <span>Sale</span>
-                          <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
                       <ul class="sub">
-                          <li><a class="" href="#">Piscina</a></li>
-                          <li><a class="" href="#">Area Fitness</a></li>
-                          <li><a class="" href="#">Area Combat</a></li>
+                          <li><a href="#">Piscina</a></li>
+                          <li><a href="#">Area Fitness</a></li>
+                          <li><a href="#">Area Combat</a></li>
                       </ul>
                   </li>
                   <li>
-                      <a class="" href="#">
+                      <a href="#">
                           <span>Recensioni</span>
                       </a>
                   </li>
                   <li>                     
-                      <a class="" href="#">
+                      <a href="#">
                           <span>Macchine  e  Attrezzi</span>
-                      </a>
-                                         
+                      </a>             
                   </li>
                   
               </ul>
-      <!--sidebar end-->
-          </div>
-            </div>
-          </div>
-      </div>
-      <!--sidebar end-->
+			</nav>
+      
+      
+            <div class="st-pusher">
+				
+				<div class="st-content">
+                    
+					<div class="st-content-inner">
+      
+      
+                          <!--header start-->
 
-      <!--main content start-->
-      <section id="main-content">
-          <section class="wrapper">
-		  <div class="row">
-				<div class="col-lg-12">
+                          <header class="header dark-bg">
+                                <div class="toggle-nav">
+                                    <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"></div>
+                                </div>
+
+                                <!--logo start-->
+                                <a href="../index.html" class="logo">Big<span class="lite">Gym</span></a>
+                                <!--logo end-->
+
+                                <div class="nav search-row" id="top_menu">
+                                    <!--  search form start -->
+                                    <ul class="nav top-menu">                    
+                                        <li>
+                                            <form class="navbar-form">
+                                                <input class="form-control" placeholder="Search" type="text">
+                                            </form>
+                                        </li>                    
+                                    </ul>
+                                    <!--  search form end -->                
+                                </div>
+
+                                <div class="top-nav notification-row">                
+                                    <!-- notificatoin dropdown start-->
+                                    <ul class="nav pull-right top-menu">
+                                        <li ><a href="#">
+                                                Big Gym
+                                            </a></li>
+                                        <li ><a href="location.html">
+                                                Location
+                                            </a></li>
+                                        <li class="dropdown" >
+                                        <a  href="tutti_corsi.html" data-toggle="dropdown" class="dropdown-toggle">
+                                                Corsi
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="tutti_corsi.html">Tutti i Corsi (A-Z)</a></li>
+                                                <li><a href="tutti_corsi_livello.html">Tutti i Corsi (Livelli)</a></li>
+                                                <li><a href="fitboxe.html">FitBoxe</a></li>
+                                                <li><a href="pilates.html">Pilates</a></li>
+                                                <li><a href="acqua_fitness.html">AcquaFitness</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a data-toggle="dropdown" class="dropdown-toggle" href="categorie.html">
+                                                Categorie
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="categorie.html">Tutti le Categorie</a></li>
+                                                <li><a href="#">Condizionamento</a></li>
+                                                <li><a href="#">Corpo e Mente</a></li>
+                                                <li><a href="#">Acqua</a></li>
+                                            </ul></li>
+                                        <li><a href="#">
+                                                Tariffe & Registrazione
+                                            </a></li>
+                                    </ul>
+                                </div>
+
+                          </header>      
+                          <!--header end-->
+
+
+
+      <!-- content start-->
+              <div class="col-lg-12">  <!--main content--> 
+                        
+				<div class="clearfix">
+                    <div id="st-trigger-effects">
+						<button data-effect="st-effect-5" id="side-button"><i class="fa fa-bars fa-3x"></i></button>
+					</div>
 					<h3 class="page-header">Corsi</h3>
 					<ol class="breadcrumb">
 						<li><i class="fa fa-home"></i><a href="../index.html">Home</a></li>
 						<li>Corsi</li>
-						<!--<li><i class="fa fa-square-o"></i>Pages</li>-->
 					</ol>
 				</div>
-			</div>
-              <!-- page start-->
-                <section class="panel"   id="filtro" >
+                  
+			
+              <div class="col-lg-12"> <!--panel content-->
+                     <section class="panel"   id="filtro" >
                     <div class="tutti-i-corsi">
                         <div class="btn-row">
                 
@@ -493,62 +498,65 @@
             
         </div>
     </section>
-              <!-- page end-->
-          </section>
-      </section>
-      <!--main content end-->
-  </section>
-  <!-- container section end -->
-      <footer class="text-center">
+					</div> <!--panel content-->
+			</div> <!--main content-->
+    
+                    </div><!-- /st-content-inner -->
+				</div><!-- /st-content -->
+    <footer class="text-center">
           <div class="footer-bottom" > 
                       <div class="row">
-                    <div class="footer-col col-md-5">
-                        <h2 id="area-link"> AREA LINK </h2>
-                                        <a href="form_iscrizione_corso.html"> <h3 id="area-link">Iscriviti ai nostri corsi!</h3></a> 
-                    </div>
-                    <div class="footer-col col-md-2">
-                        <h3>Orari</h3>
-                        <p>dal Lunedì al Venerdì<br>7:00 - 22:00
-                        <br>Sabato e Domenica<br>8:00 - 19:00<br>Sabato e Domenica</p>
-                            
-                        
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>LOGIN</h3>
-                         <form class="form-horizontal" role="form">
-                                  <div class="form-group">
-                                      <label for="inputEmail1" class="col-lg-2 control-label"></label>
-                                      <div class="col-lg-10">
-                                          <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
-                                      </div>
-                                  </div>
-                                  <div class="form-group">
-                                      <label for="inputPassword1" class="col-lg-2 control-label"></label>
-                                      <div class="col-lg-10">
-                                          <input type="password" class="form-control" id="inputPassword1" placeholder="Password">
-                                      </div>
-                                  </div>
-                                  <div class="form-group">
-                                      <div class="col-lg-offset-2 col-lg-2">
-                                          <div class="checkbox">
-                                              <label >
-                                                  <input type="checkbox">Ricordami
-                                              </label>
-                                      </div>
-                                          </div>
-                                        <div class="col-lg-offset-2 col-lg-1">
-                                                    <button type="submit" class="btn btn-danger">Sign in</button>
+									<div class="footer-col col-md-5">
+                                        <h2 id="area-link"> AREA LINK </h2>
+                                                        <a href="form_iscrizione_corso.html"> <h3 id="area-link">Iscriviti ai nostri corsi!</h3></a> 
+                                    </div>
+								<div class="footer-col col-md-3">
+									<h3>Orari</h3>
+									<p>dal Lunedì al Venerdì<br>7:00 - 22:00
+									<br>Sabato e Domenica<br>8:00 - 19:00<br>Sabato e Domenica</p>
+										
+									
+								</div>
+								<div class="footer-col col-md-4">
+									<h3>LOGIN</h3>
+									 <form class="form-horizontal" role="form">
+											  <div class="form-group">
+												  <label for="inputEmail1" class="col-lg-2 control-label"></label>
+												  <div class="col-lg-10">
+													  <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
                                                   </div>
-                                              <div class="col-lg-offset-2 col-lg-1">
-                                                    <button type="submit" class="btn btn-danger">Login</button>
-                                                  </div>
-                                      </div>
-                                  </div>
-                              </form>
+											  </div>
+                                         
+											  <div class="form-group">
+												  <label for="inputPassword1" class="col-lg-2 control-label"></label>
+												  <div class="col-lg-10">
+													  <input type="password" class="form-control" id="inputPassword1" placeholder="Password">
+												  </div>
+											  </div>
+											  <div class="form-group">
+												  <div class="col-lg-offset-2 col-lg-2">
+													  <div class="checkbox">
+														  <label >
+															  <input type="checkbox">Ricordami
+														  </label>
+												      </div>
+												  </div>
+													<div class="col-lg-offset-2 col-lg-1">
+																<button type="submit" class="btn btn-danger">Sign in</button>
+															  </div>
+														  <div class="col-lg-offset-2 col-lg-1">
+																<button type="submit" class="btn btn-danger">Login</button>
+															</div>
+												  </div>
+										</form>
+                          </div>
                     </div>
                 </div>
-          </div>
       </footer>
+    
+			</div><!-- /st-pusher -->
+		</div><!-- /st-container -->
+      
     <!-- javascripts -->
     <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap.min.js"></script>
@@ -556,6 +564,9 @@
     <script src="../js/jquery.scrollTo.min.js"></script>
     <script src="../js/jquery.nicescroll.js" type="text/javascript"></script><!--custome script for all page-->
     <script src="../js/scripts.js"></script>
+    <script src="../js/side/classie.js"></script>
+	<script src="../js/side/sidebarEffects.js"></script>
+
 
   </body>
 </html>
