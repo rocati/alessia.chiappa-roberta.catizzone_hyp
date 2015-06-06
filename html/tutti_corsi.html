@@ -7,6 +7,7 @@
     <meta name="author" content="GeeksLabs">
     <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
     <link rel="shortcut icon" href="img/favicon.png">
+    
 
     <title>Big Gym - Corsi</title>
 
@@ -29,152 +30,9 @@
     <link href="../css/style-responsive.css" rel="stylesheet" />
       
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $("#btn-tuttic").click(function(){
-                $("#pilates").show(1000);
-                $("#yoga").show(1000);
-                $("#aerof").show(1000);
-                $("#fitb").show(1000);
-                $("#jfit").show(1000);
-                $("#cross").show(1000);
-                $("#nuoto").show(1000);
-                $("#acquaf").show(1000);
-                $("#acquas").show(1000);
-                $("#gag").show(1000);
-                $("#zumba").show(1000);
-                $("#acquaz").show(1000);
-                $("#autodif").show(1000);
-                $("#tai").show(1000);
-                $("#spinning").show(1000);
-                $("#tkd").show(1000);
-                
-            });
-        });
-        $(document).ready(function(){
-            $("#btn-acqua").click(function(){
-                $("#pilates").hide(1000);
-                $("#yoga").hide(1000);
-                $("#aerof").hide(1000);
-                $("#fitb").hide(1000);
-                $("#jfit").hide(1000);
-                $("#cross").hide(1000);
-                $("#nuoto").show(1000);
-                $("#acquaf").show(1000);
-                $("#acquas").show(1000);
-                $("#gag").hide(1000);
-                $("#zumba").hide(1000);
-                $("#acquaz").show(1000);
-                $("#autodif").hide(1000);
-                $("#tai").hide(1000);
-                $("#spinning").hide(1000);
-                $("#tkd").hide(1000);
-            });
-        });
-        
-        $(document).ready(function(){
-            $("#btn-funz").click(function(){
-                $("#pilates").hide(1000);
-                $("#yoga").hide(1000);
-                $("#aerof").hide(1000);
-                $("#fitb").hide(1000);
-                $("#jfit").show(1000);
-                $("#cross").hide(1000);
-                $("#nuoto").hide(1000);
-                $("#acquaf").hide(1000);
-                $("#acquas").hide(1000);
-                $("#gag").hide(1000);
-                $("#zumba").hide(1000);
-                $("#acquaz").hide(1000);
-                $("#autodif").hide(1000);
-                $("#tai").hide(1000);
-                $("#spinning").show(1000);
-                $("#tkd").hide(1000);
-            });
-        });
-        $(document).ready(function(){
-            $("#btn-cond").click(function(){
-                $("#pilates").hide(1000);
-                $("#yoga").hide(1000);
-                $("#aerof").hide(1000);
-                $("#fitb").show(1000);
-                $("#jfit").hide(1000);
-                $("#cross").hide(1000);
-                $("#nuoto").hide(1000);
-                $("#acquaf").hide(1000);
-                $("#acquas").hide(1000);
-                $("#gag").hide(1000);
-                $("#zumba").hide(1000);
-                $("#acquaz").hide(1000);
-                $("#autodif").show(1000);
-                $("#tai").hide(1000);
-                $("#spinning").hide(1000);
-                $("#tkd").hide(1000);
-            });
-        });
-                $(document).ready(function(){
-            $("#btn-tone").click(function(){
-                $("#pilates").hide(1000);
-                $("#yoga").hide(1000);
-                $("#aerof").hide(1000);
-                $("#fitb").hide(1000);
-                $("#jfit").hide(1000);
-                $("#cross").show(1000);
-                $("#nuoto").hide(1000);
-                $("#acquaf").hide(1000);
-                $("#acquas").hide(1000);
-                $("#gag").show(1000);
-                $("#zumba").hide(1000);
-                $("#acquaz").hide(1000);
-                $("#autodif").hide(1000);
-                $("#tai").hide(1000);
-                $("#spinning").hide(1000);
-                $("#tkd").hide(1000);
-            });
-        });
-          $(document).ready(function(){
-            $("#btn-cardio").click(function(){
-                $("#pilates").hide(1000);
-                $("#yoga").hide(1000);
-                $("#aerof").show(1000);
-                $("#fitb").hide(1000);
-                $("#jfit").hide(1000);
-                $("#cross").hide(1000);
-                $("#nuoto").hide(1000);
-                $("#acquaf").hide(1000);
-                $("#acquas").hide(1000);
-                $("#gag").hide(1000);
-                $("#zumba").show(1000);
-                $("#acquaz").hide(1000);
-                $("#autodif").hide(1000);
-                $("#tai").hide(1000);
-                $("#spinning").hide(1000);
-                $("#tkd").hide(1000);
-            });
-        });
-                  $(document).ready(function(){
-            $("#btn-corpo").click(function(){
-                $("#pilates").hide(1000);
-                $("#yoga").show(1000);
-                $("#aerof").hide(1000);
-                $("#fitb").hide(1000);
-                $("#jfit").hide(1000);
-                $("#cross").hide(1000);
-                $("#nuoto").hide(1000);
-                $("#acquaf").hide(1000);
-                $("#acquas").hide(1000);
-                $("#gag").hide(1000);
-                $("#zumba").hide(1000);
-                $("#acquaz").hide(1000);
-                $("#autodif").hide(1000);
-                $("#tai").show(1000);
-                $("#spinning").hide(1000);
-                $("#tkd").show(1000);
-            });
-        });        
-
-    </script>
-
+    <script src="getbutton.js" type="text/javascript"></script>
+    
+    
   </head>
 
   <body>
@@ -318,192 +176,40 @@
               <div class="col-lg-12"> <!--panel content-->
                      <section class="panel"   id="filtro" >
                     <div class="tutti-i-corsi">
-                        <div class="btn-row">
-                
-                <div class="btn-group" data-toggle="buttons">
-                    
-                  <button id="btn-acqua" type="button" class="btn btn-default">Acqua</button>
-                  <button id="btn-tone" type="button" class="btn btn-default">Tone</button>
-                  <button id="btn-cond" type="button" class="btn btn-default">Condizionamento</button>
-                    <button id="btn-corpo" type="button" class="btn btn-default">Corpo&Mente</button>
-                    <button id="btn-funz" type="button" class="btn btn-default">Funzionali</button>
-                    <button id="btn-cardio" type="button" class="btn btn-default">Cardio</button>
-                  <button id="btn-tuttic" type="button" class="btn btn-default">Tutti i Corsi</button>
+            <div class="btn-row">
+                <div class="btn-group">
+                  <button id="btn-acqua" type="button" class="btn btn-danger">Acqua</button>
+                  <button id="btn-tone" type="button" class="btn btn-danger">Tone</button>
+                  <button id="btn-cond" type="button" class="btn btn-danger">Condizionamento</button>
+                    <button id="btn-corpo" type="button" class="btn btn-danger">Corpo&Mente</button>
+                    <button id="btn-funz" type="button" class="btn btn-danger">Funzionali</button>
+                    <button id="btn-cardio" type="button" class="btn btn-danger">Cardio</button>
+                  <button id="btn-tuttic" type="button" class="btn btn-danger">Tutti i Corsi</button>
                 </div>
             </div>
 
             <div class= "row">
                 </br>
                 </br>
-                <div  class= "col-md-3">
-                            <div id="acquaf">
-                                <a href=acqua_fitness.html>
-                                    <div class="thumbnail" id="cat-sub">
-                                    <h4 class="tutti-corsi">Acqua Fitness</h4>
-                                     <img src="../img/corsi/acquafitness.jpg" >
-                                    </div>
-                                </a>
-                            </div>
-							<div id="autodif">
-                                <a href=#>
-                                <div class="thumbnail" id="cat-sub">
-                                    <h4 class="tutti-corsi">Autodifesa</h4>
-                                    <img src="../img/corsi/autodiffesa.jpg" >
-                                </div>
-                                </a>
-                            </div>
-							
-							<div id="jfit">
-                                 <a href=#>
-                                <div class="thumbnail" id="cat-sub">
-                                    <h4 class="tutti-corsi">Joy Fit</h4>
-                                    <img src="../img/corsi/joy.jpg" >
-                                </div>
-                                 </a>
-                            </div>
-                    
-							<div id="tkd">
-                                <a href=#>
-                                <div class="thumbnail" id="cat-sub">
-                                    <h4 class="tutti-corsi">Taekwondo</h4>
-                                    <img src="../img/corsi/tkd.jpg" >
-                                </div>
-                                </a>
-                            </div>
-                            
+               
+                <div  class= "col-md-3" id=colonna1>    
                 </div>
                 
-               <div  class= "col-md-3">
-                            
-							<div id="acquas">
-                                <a href=#>
-                                <div class="thumbnail" id="cat-sub">
-                                    <h4 class="tutti-corsi">Acqua Spinning</h4>
-                                    <img src="../img/corsi/acquaspinning.jpg" >
-                                </div>
-                                </a>
-                            </div>
-                  
-							<div id="cross">
-                                <a href=#>
-                                <div class="thumbnail" id="cat-sub">
-                                    <h4 class="tutti-corsi">Crossfit</h4>
-                                    <img src="../img/corsi/crossfit.jpg" >
-                                </div>
-                                </a>
-                            </div>
-							
-                            <div id="nuoto">
-                                <a href=#>
-                                <div class="thumbnail" id="cat-sub">
-                                    <h4 class="tutti-corsi">Nuoto</h4>
-                                    <img src="../img/corsi/nuoto.jpg" >
-                                </div>
-                                </a>
-                            </div>
-                            
-							 <div id="tai">
-                                <a href=#>
-                                <div class="thumbnail" id="cat-sub">
-                                    <h4 class="tutti-corsi">Tai Chi Chuan</h4>
-                                    <img src="../img/corsi/tai.jpg" >
-                                </div>
-                                </a>
-                            </div>
-                </div>
+               <div  class= "col-md-3" id=colonna2>
+               </div>
                 
-                <div  class= "col-md-3">
-                           
-                                                    
-                            <div id="acquaz">
-                                <a href=#>
-                                <div class="thumbnail" id="cat-sub">
-                                    <h4 class="tutti-corsi">Acqua Zumba</h4>
-                                    <img src="../img/corsi/aquazumba.jpg" >
-                                </div>
-                                </a>
-                            </div>
-                            
-							<div id="fitb">
-                                <a href=fitboxe.html>
-                                <div class="thumbnail" id="cat-sub">
-                                    <h4 class="tutti-corsi">Fit Boxe</h4>
-                                    <img src="../img/corsi/fitboxe.jpg" >
-                                </div>
-                                </a>
-                            </div>
-                            
-							
-							                                
-                            <div id="pilates">
-                                <a href=pilates.html>
-                                <div class="thumbnail" id="cat-sub">
-                                   <h4 class="tutti-corsi">Pilates</h4>
-                                    <img src="../img/corsi/Pilates.jpg" >
-                                </div>
-                                </a>
-                            </div>
-							
-                            <div id="yoga">
-                                <a href=#>
-                                <div class="thumbnail"  id="cat-sub">
-                                    <h4 class="tutti-corsi">Yoga</h4>
-                                    <img src="../img/corsi/Yoga.jpg" >
-                                </div>
-                                </a>
-                            </div>
-                            
-
-                        </div>
+               <div  class= "col-md-3" id=colonna3>
+               </div>
                         
-                        <div  class= "col-md-3">
-                            
-                             <div id="aerof">
-                                 <a href=#>
-                                <div class="thumbnail" id="cat-sub">
-                                    <h4 class="tutti-corsi">AeroFight</h4>
-                                    <img src="../img/corsi/aerofight.jpg" >
-                                </div>
-                                 </a>
-                            </div>
-                            
-                            
-                            <div id="gag">
-                                <a href=#>
-                                <div class="thumbnail" id="cat-sub">
-                                    <h4 class="tutti-corsi">GAG</h4>
-                                    <img src="../img/corsi/gag.jpg" >
-                                </div>
-                                </a>
-                            </div>
-                            
-                            <div id="spinning">
-                                <a href=#>
-                                <div class="thumbnail" id="cat-sub">
-                                    <h4 class="tutti-corsi">Spinning</h4>
-                                    <img src="../img/corsi/spinning.jpg" >
-                                </div>
-                                </a>
-                            </div>
-							<div id="zumba">
-                                <a href=#>
-                                <div class="thumbnail"  id="cat-sub">
-                                    <h4 class="tutti-corsi">Zumba Step</h4>
-                                    <img src="../img/corsi/zumba-palestra.jpg" >
-                                </div>
-                                </a>
-                            </div>
-                            
-                            
-                            
-                        </div>
-                    </div>
+                <div  class= "col-md-3" id=colonna4>
+                </div>
+            </div>
             
-        </div>
-    </section>
+            </div>
+        </section>
 					</div> <!--panel content-->
 			</div> <!--main content-->
-    
+
                     </div><!-- /st-content-inner -->
 				</div><!-- /st-content -->
     <footer class="text-center">

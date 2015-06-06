@@ -21,11 +21,11 @@ function ready(){
                 
                 el+=  "<tr>"+
                         "<td class='tab-livelli-colonna' id=corso><a href='acqua_fitness.html'>"+courses[i].nomeCorso+"</a></td>"+
-                        "<td class='success'>"+courses[i].ora+"</td>"+
-                        "<td class='warning'>"+courses[i].giorno+"</td>"+
-                        "<td class='danger'>"+courses[i].livello+"</td>"+
-                        "<td class='danger'>"+courses[i].istruttore+"</td>"+
-                        "<td class='danger'>"+courses[i].sala+"</td>"+
+                        "<td>"+courses[i].ora+"</td>"+
+                        "<td'>"+courses[i].giorno+"</td>"+
+                        "<td>"+courses[i].livello+"</td>"+
+                        "<td>"+courses[i].istruttore+"</td>"+
+                        "<td>"+courses[i].sala+"</td>"+
                       "</tr>"  
 
             }

@@ -1,35 +1,87 @@
 //script che preleva preleva il JSON dei corsi
 $(document).ready(ready);
-
 function ready(){
-    console.log("I'm ready!");
+var button = $('#btn btn-danger').val();
+ console.log("I'm ready!");
+    console.log(button);
     var id=1;
-
+    console.log("test");
     $.ajax({
         method: "POST",
         //dataType: "json", //type of data
         crossDomain: true, //localhost purposes
-        url: "server.php", //Relative or absolute path to file.php file
+        url: "selectcorso.php", //Relative or absolute path to file.php file
         data: {course:id},
         success: function(response) {
             console.log("pippo");
-            console.log(JSON.parse(response));
+ 
+            
             var courses=JSON.parse(response);
-            var el="";
-            for(var i=0;i<courses.length;i++){
-                console.log(courses[i].nomeCorso);
-
+            var el1="";
+            var el2="";
+            var el3="";
+            var el4="";
+            
+            for(var i=0;i<4;i++){
+                console.log(courses[i].idCorso);
                 //el+="<div class='course' id='c"+courses[i].nomeCorso+"'><h2>"+courses[i].nomeCorso+"</h2></div>"; 
-                el+="<tr>"+"<td class='tab-livelli-colonna' id=corso><a href='acqua_fitness.html'>"+courses[i].nomeCorso+"</a></td>"                                                
-
+                //el+="<h3>"+courses[i].nomeCorso+"</h3>"; 
+                el1+= "<div id="+courses[i].idCorso+">"+
+                        "<a href=#>"+
+                            "<div class='thumbnail' id='cat-sub'>"+
+                            "<h4 class='tutti-corsi'>"+courses[i].nomeCorso+"</h4>"+
+                            "<img src='../img/corsi/"+courses[i].idCorso+".jpg'>"+
+                            "</div>"+
+                        "</a>"+
+                    "</div>";
+            }
+            for(i;i<8;i++){
+                console.log(courses[i].nomeCorso); 
+                el2+= "<div id="+courses[i].id+">"+
+                        "<a href=#>"+
+                            "<div class='thumbnail' id='cat-sub'>"+
+                            "<h4 class='tutti-corsi'>"+courses[i].nomeCorso+"</h4>"+
+                            "<img src='../img/corsi/"+courses[i].idCorso+".jpg' >"+
+                            "</div>"+
+                        "</a>"+
+                    "</div>";
+            }
+            for(i;i<12;i++){
+                console.log(courses[i].nomeCorso); 
+                el3+= "<div id="+courses[i].id+">"+
+                        "<a href=#>"+
+                            "<div class='thumbnail' id='cat-sub'>"+
+                            "<h4 class='tutti-corsi'>"+courses[i].nomeCorso+"</h4>"+
+                           "<img src='../img/corsi/"+courses[i].idCorso+".jpg' >"+
+                            "</div>"+
+                        "</a>"+
+                    "</div>";
+            }
+            for(;i<16;i++){
+                console.log(courses[i].nomeCorso);
+                el4+= "<div id="+courses[i].id+">"+
+                        "<a href=#>"+
+                            "<div class='thumbnail' id='cat-sub'>"+
+                            "<h4 class='tutti-corsi'>"+courses[i].nomeCorso+"</h4>"+
+                            "<img src='../img/corsi/"+courses[i].idCorso+".jpg' >"+
+                            "</div>"+
+                        "</a>"+
+                    "</div>";
             }
 
-            $("tbody").html(el);
+
+            
+
+            $("#colonna1").html(el1);
+            $("#colonna2").html(el2);
+            $("#colonna3").html(el3);
+            $("#colonna4").html(el4);
         },
         error: function(request,error) 
         {
             console.log("Error");
         }
     });
-
 }
+
+
