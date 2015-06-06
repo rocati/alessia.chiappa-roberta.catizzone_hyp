@@ -414,7 +414,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Gloria Hallelujah";
+  font-family: "Roboto Condensed";
   text-shadow: 1px 1px 1px #685D5D;
   font-weight: 400;
   line-height: 1.1;
@@ -1841,7 +1841,8 @@ textarea.input-lg {
   -webkit-transition: all 0.15s;
   -moz-transition: all 0.15s;
   transition: all 0.15s;
-    font-family: "Montserrat";
+  font-family: "Montserrat";
+    
 }
 
 
@@ -1910,7 +1911,9 @@ fieldset[disabled] .btn-default.active {
   color: #ffffff;
   background-color: #a92159;/*#007aff;*/
   border-color: #a92159;
-    font-family: "Montserrat";
+  font-family: "Montserrat";
+  white-space:normal;
+  max-width:100%;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -1949,6 +1952,8 @@ fieldset[disabled] .btn-primary.active {
   background-color:#BCC747  /*#ff6000*/;
   border-color: #BCC747 ;
   margin: 10px;
+  white-space:normal;
+  max-width:100%;
 }
 .btn-warning:hover,
 .btn-warning:focus,
@@ -3568,7 +3573,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-collapse {
-  max-height: 340px;
+  max-height: 324px;
   overflow-x: visible;
   padding-right: 15px;
   padding-left: 15px;
@@ -3696,7 +3701,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   border-radius: 4px;
 }
 .navbar-toggle .icon-bar {
-  display: block;
+  display: inline;
   width: 22px;
   height: 2px;
   border-radius: 1px;
@@ -5404,8 +5409,7 @@ body.modal-open,
 .pull-right {
   float: right !important;
   padding-top: 1%;
-    
-  /*text-transform: uppercase;*/
+  font-weight:bold;
  
 }
 .pull-left {
@@ -6030,6 +6034,7 @@ a.active {
 #area-link {
     color:#E3F33B ;
     text-shadow: 4px 4px 4px #211E1E;
+    font-family:"Montserrat";
 }
 
 .tutti-corsi{
