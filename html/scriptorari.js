@@ -24,7 +24,7 @@ function ready(){
                 el+=  "<tr class='success'>"+
                         "<td class='tab-livelli-colonna' id=corso><a href='acqua_fitness.html'>"+courses[i].nomeCorso+"</a></td>"+
                         "<td>"+courses[i].ora+"</td>"+
-                        "<td'>"+courses[i].giorno+"</td>"+
+                        "<td>"+courses[i].giorno+"</td>"+
                         "<td>"+courses[i].livello+"</td>"+
                         "<td>"+courses[i].istruttore+"</td>"+
                         "<td>"+courses[i].sala+"</td>"+
@@ -36,7 +36,7 @@ function ready(){
 					el+=  "<tr class='warning'>"+
 							"<td class='tab-livelli-colonna' id=corso><a href='acqua_fitness.html'>"+courses[i].nomeCorso+"</a></td>"+
 							"<td>"+courses[i].ora+"</td>"+
-							"<td'>"+courses[i].giorno+"</td>"+
+							"<td>"+courses[i].giorno+"</td>"+
 							"<td>"+courses[i].livello+"</td>"+
 							"<td>"+courses[i].istruttore+"</td>"+
 							"<td>"+courses[i].sala+"</td>"+
@@ -46,7 +46,7 @@ function ready(){
 							 el+=  "<tr class='danger'>"+
 							"<td class='tab-livelli-colonna' id=corso><a href='acqua_fitness.html'>"+courses[i].nomeCorso+"</a></td>"+
 							"<td>"+courses[i].ora+"</td>"+
-							"<td'>"+courses[i].giorno+"</td>"+
+							"<td>"+courses[i].giorno+"</td>"+
 							"<td>"+courses[i].livello+"</td>"+
 							"<td>"+courses[i].istruttore+"</td>"+
 							"<td>"+courses[i].sala+"</td>"+
