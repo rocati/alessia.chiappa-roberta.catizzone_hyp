@@ -3606,7 +3606,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   clear: both;
 }
 .navbar-collapse.in {
-  overflow-y: auto;
+  /*overflow-y: auto;*/
 }
 @media (min-width: 768px) {
   .navbar-collapse {
@@ -3692,8 +3692,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-toggle {
   position: relative;
   float: right;
-  margin-right: 15px;
-  padding: 9px 10px;
+  /*margin-right: 15px;*/
+  padding: 4px 9px;
   margin-top: 8px;
   margin-bottom: 8px;
   background-color: transparent;
@@ -3880,7 +3880,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-  border-color: #dddddd;
+  border-color: #57102C;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
