@@ -4608,10 +4608,10 @@ a.thumbnail:focus {
   margin-right: 5px;
 }
 a.list-group-item {
-  color: #555555 /*er*/;/*da problemi in firefox*/
+  color: #555555 er;/*da problemi in firefox*/
 }
 a.list-group-item .list-group-item-heading {
-  color: #333333 /*er*/;/*da problemi in firefox*/
+  color: #333333 er;/*da problemi in firefox*/
 }
 a.list-group-item:hover,
 a.list-group-item:focus {
@@ -6006,7 +6006,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #fff;
+    color: #A92159;/*#fff*/
     font-size: 20px;
 }
 
