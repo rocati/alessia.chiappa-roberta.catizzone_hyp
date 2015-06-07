@@ -18,7 +18,7 @@ function ready(){
             var el="";
             for(var i=0;i<courses.length;i++){
                 console.log(courses[i].ora);   
-                
+
                 el+=  "<tr>"+
                         "<td class='tab-livelli-colonna' id=corso><a href='acqua_fitness.html'>"+courses[i].nomeCorso+"</a></td>"+
                         "<td>"+courses[i].ora+"</td>"+
@@ -27,6 +27,7 @@ function ready(){
                         "<td>"+courses[i].istruttore+"</td>"+
                         "<td>"+courses[i].sala+"</td>"+
                       "</tr>"  
+
 
             }
 

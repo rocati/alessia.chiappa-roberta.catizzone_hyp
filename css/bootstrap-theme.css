@@ -1992,17 +1992,17 @@ fieldset[disabled] .btn-warning.active {
 }
 .btn-danger {
   color: #ffffff;
-  background-color: #ff2d55;
-  border-color: #ff2d55;
+  background-color: #ED0F7D/*#ff2d55*/;
+  border-color: #ED0F7D;
 }
 .btn-danger:hover,
 .btn-danger:focus,
 .btn-danger:active,
 .btn-danger.active,
 .open .dropdown-toggle.btn-danger {
-  color: #ff2d55;
-  background: transparent;
-  border-color: #ff2d55;
+  color: #ED0F7D;
+  background: #fff;
+  border-color: #ED0F7D;
 }
 .btn-danger:active,
 .btn-danger.active,
