@@ -53,7 +53,6 @@ function ready(){
 						  "</tr>" 
 						
 					}
-                    
 					
 				}
 
@@ -68,4 +67,5 @@ function ready(){
         }
     });
 
+}
 }
