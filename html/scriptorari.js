@@ -17,7 +17,7 @@ function ready(){
             var courses=JSON.parse(response);
             var el="";
             for(var i=0;i<courses.length;i++){
-                console.log(courses[i].ora);
+				console.log(courses[i].ora);
 				
 				if(courses[i].livello=="BASIC"){
 
