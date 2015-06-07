@@ -26,7 +26,7 @@ label{
     font-size:20px;
 }
 
-# label-form{
+#label-form{
 font-size:10px;
 }
 
@@ -1555,7 +1555,7 @@ div[data-role="editor-toolbar"] {
   -moz-box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.1);
 }
-* /Widget-Content */
+/*Widget-Content */
 
 .widget-content .error .form-inline button{
 	margin-left:-2px;
