@@ -12,14 +12,16 @@ function ready(){
         success: function(response) {
             var istruttori=JSON.parse(response);
             var el="";
+            var nome="";
             for(var i=0;i<istruttori.length;i++){
                 console.log(istruttori[i].nome);
                 var idIstruttore=istruttori[i].id;
 				el="<img src='../img/istruttori/"+istruttori[i].avater+"'>";
+                nome = ""+istruttori[i].nome;
                        
             }
             $("#divAvater").html(el);
-            
+            $("#nomeIstruttore").html(nome);
         },
         error: function(request,error) 
         {
