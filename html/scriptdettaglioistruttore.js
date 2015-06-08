@@ -2,24 +2,23 @@
 $(document).ready(ready);
 
 function ready(){
-    var id=1;
+    var id=getURLParameter("id");
     $.ajax({
         method: "POST",
         //dataType: "json", //type of data
         crossDomain: true, //localhost purposes
         url: "selectistruttore.php", //Relative or absolute path to file.php file
-        data: {"funzione": "elenco"},
+        data: {"funzione": "dettaglio","id":id},
         success: function(response) {
             var istruttori=JSON.parse(response);
             var el="";
             for(var i=0;i<istruttori.length;i++){
                 console.log(istruttori[i].nome);
                 var idIstruttore=istruttori[i].id;
-                var url="istruttore.html?id="+idIstruttore;
-                el+="<li><a href='"+url+"'>"+istruttori[i].nome+"</a></li>";                          
+				el="<img src='../img/istruttori/"+istruttori[i].avater+"'>";
+                       
             }
-
-            $("#sub-istr").html(el);
+            $("#divAvater").html(el);
             
         },
         error: function(request,error) 
@@ -28,4 +27,8 @@ function ready(){
         }
     });
     
+}
+
+function getURLParameter(name) {
+  return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
 }
