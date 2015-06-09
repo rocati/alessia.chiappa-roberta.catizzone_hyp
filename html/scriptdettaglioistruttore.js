@@ -18,11 +18,14 @@ function ready(){
                 var idIstruttore=istruttori[i].id;
 				el="<img src='../img/istruttori/"+istruttori[i].avater+"'>";
                 nome = ""+istruttori[i].nome;
+                next=""+istruttori[i+1];
                        
             }
            
             $("#divAvater").html(el);
             $(".nomeIstruttore").html(nome);
+            $("#prossimo").html(next);
+            
         },
         error: function(request,error) 
         {
