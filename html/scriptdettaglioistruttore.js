@@ -20,8 +20,9 @@ function ready(){
                 nome = ""+istruttori[i].nome;
                        
             }
+           
             $("#divAvater").html(el);
-            $("#nomeIstruttore").html(nome);
+            $(".nomeIstruttore").html(nome);
         },
         error: function(request,error) 
         {
