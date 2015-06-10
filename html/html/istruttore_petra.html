@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creative - Bootstrap 3 Responsive Admin Template">
+    <meta name="author" content="GeeksLabs">
+    <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <title>Big Gym - Istruttore Petra</title>
+
+    <!-- bootstrap theme -->
+    <link href="../css/bootstrap-theme.css" rel="stylesheet">
+    
+    <!-- sidebar js -->
+    <link rel="stylesheet" type="text/css" href="../css/side/demo.css" />
+	<link rel="stylesheet" type="text/css" href="../css/side/component.css" />
+      
+     <!--fonts css-->
+   <link href="http://fonts.googleapis.com/css?family=Pacifico|Bangers|Montserrat|Roboto+Condensed" rel="stylesheet" type="text/css"> 
+    <!-- font icon -->
+    <link href="../css/font-awesome.min.css" rel="stylesheet" />
+     <!-- Custom styles -->
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/style-responsive.css" rel="stylesheet" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" type="text/javascript"></script>
+    <script src="scriptistruttori.js" type="text/javascript"></script>
+
+  </head>
+
+  <body>
+  <!-- container section start -->
+  <div id="st-container" class="st-container">
+      
+      
+      <nav class="st-menu st-effect-5" id="menu-5">
+				<h1 id="side-menu">Menù</h1>
+          
+                        <ul class="nav top-menu">                    
+                                        <li>
+                                            <form class="navbar-form">
+                                                <input class="form-control" placeholder="Search" type="text">
+                                            </form>
+                                        </li>                    
+                                    </ul>
+				<ul class="sidebar-menu">                
+                  <li >
+                      <a href="#" >
+                          <span>Planning</span>
+                      </a>
+                  </li>
+				  <li class="sub-menu">
+                      <a href="#" >
+                          <span>Istruttori</span>
+                      </a>
+                       <ul class="sub" id=sub-istr>&nbsp;
+                      </ul>
+                  </li>       
+                  <li class="sub-menu">
+                      <a href="#">
+                          <span>Sale</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a href="#">Piscina</a></li>
+                          <li><a href="#">Area Fitness</a></li>
+                          <li><a href="#">Area Combat</a></li>
+                      </ul>
+                  </li>
+                  <li>
+                      <a href="#">
+                          <span>Recensioni</span>
+                      </a>
+                  </li>
+                  <li>                     
+                      <a href="#">
+                          <span>Macchine  e  Attrezzi</span>
+                      </a>             
+                  </li>
+                  
+              </ul>
+			</nav>
+      
+      
+            <div class="st-pusher">
+				
+				<div class="st-content">
+                    
+					<div class="st-content-inner">
+      
+      
+                          <!--header start-->
+
+                              <nav class="navbar-default header dark-bg">
+                                    <div class="container">
+                                        <!-- mobile display -->
+                                        <div class="navbar-header page-scroll">
+                                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                                <i class="fa fa-bars fa-1x"></i>
+                                            </button>
+                                            <a href="../index.html" class="logo">Big<span class="lite">Gym</span></a>
+                                        </div>
+                                         
+                                                                              
+                                        <!-- Collect the nav links, forms, and other content for toggling -->
+                                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                            <ul class="nav pull-right top-menu">
+                                                <li ><a href="#">
+                                                        Big Gym
+                                                    </a></li>
+                                                <li ><a href="location.html">
+                                                        Location
+                                                    </a></li>
+                                                <li class="dropdown" >
+                                                <a  href="tutti_corsi.html" data-toggle="dropdown" class="dropdown-toggle">
+                                                        Corsi
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="tutti_corsi.html">Tutti i Corsi (A-Z)</a></li>
+                                                        <li><a href="tutti_corsi_livello.html">Tutti i Corsi (Livelli)</a></li>
+                                                        <li><a href="fitboxe.html">FitBoxe</a></li>
+                                                        <li><a href="pilates.html">Pilates</a></li>
+                                                        <li><a href="acqua_fitness.html">AcquaFitness</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a data-toggle="dropdown" class="dropdown-toggle" href="categorie.html">
+                                                        Categorie
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="categorie.html">Tutti le Categorie</a></li>
+                                                        <li><a href="#">Condizionamento</a></li>
+                                                        <li><a href="#">Corpo e Mente</a></li>
+                                                        <li><a href="#">Acqua</a></li>
+                                                    </ul></li>
+                                                <li><a href="#">
+                                                        Tariffe
+                                                    </a></li>
+                                    </ul>
+                                        </div>
+                                        <!-- /.navbar-collapse -->
+                                    </div>
+                                    <!-- /.container-fluid -->
+                                </nav>   
+                          <!--header end-->
+
+
+
+      <!-- content start-->
+              <div class="col-lg-12">  <!--main content--> 
+                        
+				<div class="clearfix">
+                    <div id="st-trigger-effects">
+						<button data-effect="st-effect-5" id="side-button"><i class="fa fa-bars fa-3x"></i></button>
+					</div>
+					<h3 class="page-header">Istruttori</h3>
+					<ol class="breadcrumb">
+						<li><i class="fa fa-home"></i><a href="../index.html">Home</a></li>
+                    	<li>Istruttori</li>
+						<li>Petra</li>
+					</ol>
+				</div>
+                  
+			
+              <div class="col-lg-12"> <!--panel content-->
+              <section id="profili-centrato">
+              <div class="row">
+                <!-- profile-widget -->
+                <div class="col-lg-10">
+                    <div class="profile-widget profile-widget-info">
+                          <div class="panel-body">
+                            <div class="col-lg-4 col-sm-4">
+                              <h2>Petra</h2> 
+                              <div class="follow-ava">
+                                  <img src="../img/istruttori/Petra.jpg" alt="">
+                                    <br>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6 follow-info">
+                                <h3>Ciao sono Petra!</h3><br>
+                                <h4>I Miei Social</h4>
+								       <ul class="list-inline">
+                                            <li>
+                                            <a href="#" class="btn-social btn-outline"><i class="fa fa-facebook fa-4x"></i></a>
+                                            </li>
+                                            <li>
+                                            <a href="#" class="btn-social btn-outline"><i class="fa fa-4x fa-twitter"></i></a>
+                                            </li>
+                                        </ul>
+                            </div>
+
+                          </div>
+                    </div>
+                </div>
+              </div>
+              <!-- page start-->
+              <div class="row">
+                 <div class="col-lg-10">
+                    <section class="panel">
+                          <header class="panel-heading tab-bg-info">
+                              <ul class="nav nav-tabs">
+                                  
+                                  <li class="active">
+                                      <a data-toggle="tab" href="#profile">
+                                          <i class="icon-user"></i>
+                                          Profile
+                                      </a>
+                                  </li>
+                                  <li class="">
+                                      <a data-toggle="tab" href="#edit-profile">
+                                          <i class="icon-envelope"></i>
+                                          Premi
+                                      </a>
+                                  </li>
+                                  <li class="">
+                                      <a data-toggle="tab" href="#gallery">
+                                          <i class="icon-envelope"></i>
+                                          Gallery
+                                      </a>
+                                  </li>
+                              </ul>
+                          </header>
+                          <div class="panel-body">
+                              <div class="tab-content">
+                                  
+                                  <!-- profile -->
+                                  <div id="profile" class="tab-pane active">
+                                    <section class="panel">
+                                      <div class="bio-graph-heading">
+                                                SONO UNO DEGLI ISTRUTTORI DEL MESE!!
+                                      </div>
+                                      <div class="panel-body bio-graph-info">
+                                          <h1>Chi sono</h1>
+                                          <div class="biograph-body">
+                                              Ha iniziato a praticare Tai Chi Chuan e Qi Gong nel 1988.Qualifica di Direttore Tecnico Nazionale AKIDO con il grado di Maestro per A.S.C. e Istruttore del C.S.I. e della Scuola Yong Nian del Gran Maestro Li Rong Mei, di cui è Responsabile per Milano e Provincia. Conoscitore di diverse Discipline Orientali quali lo Yoga, la Meditazione e diverse Tecniche di Massaggio.
+Sotto la sua guida decine di Atleti hanno conquistato Titoli Internazionali, e Nazionali sia nel Taekwondo , che nel Tai Chi Chuan.
+                                          </div>
+                                      </div>
+                                    </section>
+                                      <section>
+                                          <div class="row">                                              
+                                          </div>
+                                      </section>
+                                  </div>
+                                  <!-- premi -->
+                                  <div id="edit-profile" class="tab-pane">
+                                    <section class="panel">                                          
+                                          <div class="panel-body bio-graph-info">
+                                              <h1> Premi & riconoscimenti</h1>
+                                              <div class="biograph-body">
+                                              Atleta di Tai Chi Chuan, ha conquistato il Titolo di Vice Campione Europeo E.w.u.f. agli ultimi Campionati Europei a Bucarest 2014 Argento(nella Cat. Forme Tradizionali) e Bronzo (nella Categoria Armi Tradizionali), 
+                                          </div>
+                                        </div>
+                                      </section>
+                                  </div>
+                                    <!-- video -->
+                                  <div id="gallery" class="tab-pane">
+                                    <section class="panel">                                          
+                                          <div class="panel-body bio-graph-info">
+                                              <h1> Video</h1>
+                                              <div class="biograph-body">
+                                                <iframe width="100%" height="315" src="https://www.youtube.com/embed/mfw7rKKY6TU" frameborder="0" allowfullscreen></iframe>
+                                               </div>
+                                        </div>
+                                                      </section>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </section>
+                                    </div>
+                                    </div>
+                
+            <!-- bottoni-->    
+                <div class="row">
+                    
+                    <div class="panel-body col-lg-10">
+                        <div class="panel-body col-lg-6">
+                              <button type="button" class="btn btn-primary btn-lg btn-block" onClick="parent.location='istruttore_sabrina.html'">Istruttore Precedente</button>
+                        </div>
+                        <div class="panel-body col-lg-6">
+                              <button type="button" class="btn btn-primary btn-lg btn-block" onClick="parent.location='istruttore_rocco.html'">Istruttore Successivo</button>
+                        </div>
+                              <button type="button" class="btn btn-warning btn-block">Torna agli Istruttori</button>
+                          </div>
+                    
+                </div>
+            </section>
+					</div> <!--panel content-->
+			</div> <!--main content-->
+    
+                    </div><!-- /st-content-inner -->
+				</div><!-- /st-content -->
+    <footer class="text-center">
+          <div class="footer-bottom" > 
+                      <div class="row">
+								<div class="footer-col col-md-5">
+                                        <h2 id="area-link"> AREA LINK </h2>
+                                        <div class="row row-in-footer">
+                                            <div class="col-md-6">
+                                                <h3 id="area-link">I corsi di Petra</h3>
+                                                <a href="pilates.html"> <h4 id="area-link">Pilates</h4></a>
+                                                <a href="#"> <h4 id="area-link">Yoga</h4></a>
+                                                <a href="#"> <h4 id="area-link">Tai Chi</h4></a>                                
+                                            </div>
+                                            <div class="col-md-6">
+                                             <h3 id="area-link">Categorie</h3>
+                                                <a href="#"> <h4 id="area-link">Corpo&Mente</h4></a>
+                                                <a href="#"> <h4 id="area-link">Tone</h4></a>   
+                                            </div>
+                                        </div>
+
+                                    </div>
+								<div class="footer-col col-md-2">
+									<h3>Orari</h3>
+									<p>dal Lunedì al Venerdì<br>7:00 - 22:00
+									<br>Sabato e Domenica<br>8:00 - 19:00<br>Sabato e Domenica</p>
+										
+									
+								</div>
+								<div class="footer-col col-md-5">
+									<h3>LOGIN</h3>
+									 <form class="form-horizontal" role="form">
+											  <div class="form-group">
+												  <label for="inputEmail1" class="col-lg-2 control-label"></label>
+												  <div class="col-lg-10">
+													  <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
+                                                  </div>
+											  </div>
+                                         
+											  <div class="form-group">
+												  <label for="inputPassword1" class="col-lg-2 control-label"></label>
+												  <div class="col-lg-10">
+													  <input type="password" class="form-control" id="inputPassword1" placeholder="Password">
+												  </div>
+											  </div>
+											  <div class="form-group">
+												  <div class="col-lg-offset-2 col-lg-2">
+													  <div class="checkbox">
+														  <label >
+															  <input type="checkbox">Ricordami
+														  </label>
+												      </div>
+												  </div>
+													<div class="col-lg-offset-2 col-lg-1">
+																<button type="submit" class="btn btn-danger">Sign in</button>
+															  </div>
+														  <div class="col-lg-offset-2 col-lg-1">
+																<button type="submit" class="btn btn-danger">Login</button>
+															</div>
+												  </div>
+										</form>
+                          </div>
+                    </div>
+                </div>
+      </footer>
+    
+			</div><!-- /st-pusher -->
+		</div><!-- /st-container -->
+      
+    <!-- javascripts -->
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- nice scroll -->
+    <script src="../js/jquery.scrollTo.min.js"></script>
+    <script src="../js/jquery.nicescroll.js" type="text/javascript"></script><!--custome script for all page-->
+    <script src="../js/scripts.js"></script>
+    <script src="../js/side/classie.js"></script>
+	<script src="../js/side/sidebarEffects.js"></script>
+
+
+  </body>
+</html>
