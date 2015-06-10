@@ -10,9 +10,7 @@ function ready(){
         url: "selectcategoria.php", //Relative or absolute path to file.php file
         data: {course:id},
         success: function(response) {
-            console.log("pippo");
- 
-            
+                       
             var categorie=JSON.parse(response);
             var el1="";
             var el2="";
@@ -30,8 +28,8 @@ function ready(){
                     "</div>";
             }
             for(i;i<4;i++){
-                console.log(courses[i].nomeCorso); 
-                el2+= "<div id="+courses[i].id+">"+
+                console.log(categorie[i].nomeCorso); 
+                el2+= "<div id="+categorie[i].idCategoria+">"+
                         "<a href=#>"+
                             "<div class='thumbnail' id='cat-sub'>"+
                             "<h4 class='tutti-corsi'>"+categorie[i].nomeCategoria+"</h4>"+
@@ -41,8 +39,8 @@ function ready(){
                     "</div>";
             }
             for(i;i<6;i++){
-                console.log(courses[i].nomeCorso); 
-                el3+= "<div id="+courses[i].id+">"+
+                console.log(categorie[i].nomeCorso); 
+                el3+= "<div id="+categorie[i].idCategoria+">"+
                         "<a href=#>"+
                             "<div class='thumbnail' id='cat-sub'>"+
                             "<h4 class='tutti-corsi'>"+categorie[i].nomeCategoria+"</h4>"+

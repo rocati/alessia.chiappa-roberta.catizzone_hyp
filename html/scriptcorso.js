@@ -1,3 +1,6 @@
+/********************************* RINOMINARE COME SCRIPTCORSI.JS **********************************
+							script che popola la pagina di tutti i corsi
+****************************************************************************************************/
 //script che preleva preleva il JSON dei corsi
 $(document).ready(ready);
 function ready(){

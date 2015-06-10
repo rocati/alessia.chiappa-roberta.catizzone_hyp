@@ -15,6 +15,6 @@ while($row = mysqli_fetch_array($result))
 }
 
 // JSON ENCODE DEPENDING BY BUTTON
-  print json_encode($corso);
+  print json_encode($categoria);
 
 ?>

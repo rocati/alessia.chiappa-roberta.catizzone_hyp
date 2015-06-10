@@ -13,18 +13,39 @@ function ready(){
             var istruttori=JSON.parse(response);
             var el="";
             var nome="";
+            var descr="";
+            var premio="";
+            var video="";
+            var pre="";
+            var post=""; 
+            var titolo="";
+            
             for(var i=0;i<istruttori.length;i++){
-                console.log(istruttori[i].nome);
                 var idIstruttore=istruttori[i].id;
 				el="<img src='../img/istruttori/"+istruttori[i].avater+"'>";
                 nome = ""+istruttori[i].nome;
-                next=""+istruttori[i+1];
-                       
-            }
+                descr =""+istruttori[i].descrizione;
+                premio =""+istruttori[i].premio;
+                video= "<iframe width='100%' height='315' src='"+istruttori[i].gallery+"' frameborder='0' allowfullscreen></iframe>";
+                pre="http://biggymchiappacatizzone.altervista.org/html/istruttore.html?id="+istruttori[i].precedente+"";
+                post="http://biggymchiappacatizzone.altervista.org/html/istruttore.html?id="+istruttori[i].successivo+"";
+                titolo="Big Gym - "+istruttori[i].nome;
+                }
            
             $("#divAvater").html(el);
             $(".nomeIstruttore").html(nome);
-            $("#prossimo").html(next);
+            $("#biografia").html(descr);
+            $("#premio").html(premio); 
+            $("#gallery").html(video);             
+            $('#istruttoreprecedente').click(function(){
+               window.location.href=pre;
+            })
+            $('#istruttoresuccessivo').click(function(){
+               window.location.href=post;
+            })
+            $("#titolo").html(titolo);
+            
+     
             
         },
         error: function(request,error) 
@@ -35,6 +56,6 @@ function ready(){
     
 }
 
-function getURLParameter(name) {
+  function getURLParameter(name) {
   return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
 }
