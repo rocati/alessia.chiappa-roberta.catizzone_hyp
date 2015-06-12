@@ -2,7 +2,6 @@ $(document).ready(ready);
 function ready(){
     console.log("I'm ready!");
     var id=1;
-    console.log("test");
     $.ajax({
         method: "POST",
         //dataType: "json", //type of data
@@ -10,7 +9,6 @@ function ready(){
         url: "../php/selectcorso.php", //Relative or absolute path to file.php file
         data: {course:id},
         success: function(response) {
-            console.log("pippo");
             
             var courses=JSON.parse(response);
             var el1="";
@@ -20,7 +18,7 @@ function ready(){
             
             for(var i=0;i<courses.length;i++){
             if(courses[i].idCorso==1||courses[i].idCorso==5||courses[i].idCorso==9||courses[i].idCorso==13){
-                console.log(courses[i].idCorso);
+                
                 el1+= "<div id="+courses[i].idCorso+">"+
                          "<a href='http://biggymchiappacatizzone.altervista.org/html/corso.html?id="+courses[i].idCorso+"' >"+
                             "<div class='thumbnail' id='cat-sub'>"+
@@ -33,7 +31,7 @@ function ready(){
             }}
             for(i=0;i<courses.length;i++){
             if(courses[i].idCorso==2||courses[i].idCorso==6||courses[i].idCorso==10||courses[i].idCorso==14){
-                console.log(courses[i].nomeCorso); 
+                
                 el2+= "<div id="+courses[i].idCorso+">"+
                  "<a href='http://biggymchiappacatizzone.altervista.org/html/corso.html?id="+courses[i].idCorso+"' >"+
                             "<div class='thumbnail' id='cat-sub'>"+
@@ -46,7 +44,7 @@ function ready(){
             
             for(i=0;i<courses.length;i++){
             if(courses[i].idCorso==3||courses[i].idCorso==7||courses[i].idCorso==11||courses[i].idCorso==15){
-                console.log(courses[i].nomeCorso); 
+                
                 el3+= "<div id="+courses[i].idCorso+">"+
                         "<a href='http://biggymchiappacatizzone.altervista.org/html/corso.html?id="+courses[i].idCorso+"' >"+
                             "<div class='thumbnail' id='cat-sub'>"+
@@ -58,7 +56,7 @@ function ready(){
             }}
             for(i=0;i<courses.length;i++){
             if(courses[i].idCorso==4||courses[i].idCorso==8||courses[i].idCorso==12||courses[i].idCorso==16){
-                console.log(courses[i].nomeCorso);
+                
                 el4+= "<div id="+courses[i].idCorso+">"+
                         "<a href='http://biggymchiappacatizzone.altervista.org/html/corso.html?id="+courses[i].idCorso+"' >"+
                             "<div class='thumbnail' id='cat-sub'>"+
