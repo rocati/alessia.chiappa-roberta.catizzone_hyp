@@ -19,7 +19,7 @@ function ready(){
             var pre="";
             var post=""; 
             var titolo="";
-            
+            var mese="";
             for(var i=0;i<istruttori.length;i++){
                 var idIstruttore=istruttori[i].id;
 				el="<img src='../img/istruttori/"+istruttori[i].avater+"'>";
@@ -30,6 +30,13 @@ function ready(){
                 pre="http://biggymchiappacatizzone.altervista.org/html/istruttore.html?id="+istruttori[i].precedente+"";
                 post="http://biggymchiappacatizzone.altervista.org/html/istruttore.html?id="+istruttori[i].successivo+"";
                 titolo="Big Gym - "+istruttori[i].nome;
+                mese=istruttori[i].istruttoreMese;
+                if(mese==1){
+                	$("#mese").show();
+                }
+                else{
+                	$("#mese").hide();
+                }
                 }
            
             $("#divAvater").html(el);

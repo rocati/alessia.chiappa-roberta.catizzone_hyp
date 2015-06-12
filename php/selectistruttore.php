@@ -32,7 +32,7 @@ if($tipoFunzione=='dettaglio')
     $result =DB::getDB()->query($sql);
     while($row = mysqli_fetch_array($result))
     {
-        $istruttore[] = array("id" => $row['id'],"nome" => $row['nome'],"gallery" => $row['gallery'],"avater" => $row['avater'],"descrizione" => $row['descrizione'],"premio" => $row['premio'],"avater" => $row['avater'],"descrizione" => $row['descrizione'],"precedente" => $row['precedente'],"successivo" => $row['successivo']);
+        $istruttore[] = array("id" => $row['id'],"nome" => $row['nome'],"gallery" => $row['gallery'],"avater" => $row['avater'],"descrizione" => $row['descrizione'],"premio" => $row['premio'],"avater" => $row['avater'],"descrizione" => $row['descrizione'],"precedente" => $row['precedente'],"successivo" => $row['successivo'],"istruttoreMese" => $row['istruttoreMese']);
     }
 
     // JSON ENCODE DEPENDING BY BUTTON

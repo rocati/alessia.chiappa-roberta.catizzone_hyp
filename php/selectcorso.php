@@ -7,8 +7,7 @@ $corso = array();
 
 require_once'dbclass.php';
 
-//SELEZIONO CORSI ACQUA
-$sql = "SELECT idCorso, nomeCorso, categoria FROM corso ORDER BY nomeCorso";
+$sql = "SELECT * FROM corso ORDER BY nomeCorso";
 $result =DB::getDB()->query($sql);
 while($row = mysqli_fetch_array($result))
 {

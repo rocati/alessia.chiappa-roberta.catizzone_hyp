@@ -5,7 +5,7 @@ $categoria = array();
 
 // creo array per tutte le categorie
 
-require_once'../php/dbclass.php';
+require_once'dbclass.php';
 
 $sql = "SELECT idCategoria, nomeCategoria FROM categoria ORDER BY idCategoria";
 $result =DB::getDB()->query($sql);

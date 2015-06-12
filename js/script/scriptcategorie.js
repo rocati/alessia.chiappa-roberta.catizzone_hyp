@@ -28,7 +28,7 @@ function ready(){
                     "</div>";
             }
             for(i;i<4;i++){
-                console.log(categorie[i].nomeCorso); 
+                console.log(categorie[i].idCategoria); 
                 el2+= "<div id="+categorie[i].idCategoria+">"+
                         "<a href=#>"+
                             "<div class='thumbnail' id='cat-sub'>"+
@@ -39,7 +39,7 @@ function ready(){
                     "</div>";
             }
             for(i;i<6;i++){
-                console.log(categorie[i].nomeCorso); 
+                console.log(categorie[i].idCategoria); 
                 el3+= "<div id="+categorie[i].idCategoria+">"+
                         "<a href=#>"+
                             "<div class='thumbnail' id='cat-sub'>"+

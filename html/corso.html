@@ -6,9 +6,8 @@
     <meta name="description" content="Creative - Bootstrap 3 Responsive Admin Template">
     <meta name="author" content="GeeksLabs">
     <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
-    <link rel="shortcut icon" href="img/favicon.png">
-
-    <title class="nomecorso">Big Gym</title>
+    
+    <title id="titolo"></title>
 
     <!-- bootstrap theme -->
     <link href="../css/bootstrap-theme.css" rel="stylesheet">
@@ -28,7 +27,7 @@
     <!--scripts-->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" type="text/javascript"></script>
     <script src="../js/script/scriptistruttori.js" type="text/javascript"></script>
-    <script src="../js/script/scriptdettagliocorso.js" type="text/javascript"></script>
+    <script src="../js/script/scriptcorsi.js" type="text/javascript"></script>
 
   </head>
 
@@ -158,7 +157,7 @@
 					<ol class="breadcrumb">
 						<li><i class="fa fa-home"></i><a href="../index.html">Home</a></li>
 						<li>Corsi</li>
-						<li class="nomecorso"><!-- COMPARIRA' NOME CORSO --></li>
+						<li class="nomeCorso"></li>
 					</ol>
 				</div>
                   
@@ -166,21 +165,21 @@
               <div class="col-lg-12"> <!--panel content-->
                    <section class="panel">
                       <header class="panel-heading">
-                          <h3 class="nomecorso"><!-- COMPARIRA' NOME CORSO --></h3>
+                          <h3 class="nomeCorso"></h3>
                       </header>
                        
                        <div class="panel-body">
-                                  <p class="descrizionecorso"></p>
+                                  <p id="descrizione"></p>
 
-                                  <div class="col-lg-6" id="immaginecorso">
-                                    <!-- INSERISCO IMMAGINE DEL CORSO -->  
+                                  <div class="col-lg-6" id="divImm">
+                                    <!--IMMAGINE DEL CORSO -->  
                                   </div>
                                   <div class="col-lg-6">
-                                      <p class="tipologiacorso"></p>
+                                      <p id="tipologia"></p>
                                       <a class="btn btn-primary btn-lg" href="#">Scopri tutti i corsi della categoria</a>
                                       <a class="btn btn-warning btn-lg" href="tutti_corsi.html">Torna all'elenco dei corsi</a>
                                   </div>
-                                  </div>
+                          </div>
                         </section>
 					</div> <!--panel content-->
 			</div> <!--main content-->
@@ -194,14 +193,13 @@
                         <h2 id="area-link"> AREA LINK </h2>
                             <div class="row row-in-footer">
                                     <div class="col-md-4">
-                                        <!-- ISTRUTTORI DA IMPLEMENTARE -->
                                         <h3 id="area-link">Istruttori</h3>
-                                        <a href="../html/istruttore_sabrina.html"> <h4 id="area-link">Sabrina</h4></a>
-                                        <a href="#"> <h4 id="area-link">Roberta</h4></a>                               
+                                        <a href="#" id="linkIstr"> <h4 id="area-link"  class="istruttore"></h4></a>
+                                        <!--<a href="#"> <h4 id="area-link">Roberta</h4></a>     -->                          
                                     </div>
                                     <div class="col-md-8">
                                      <h4></h4>
-                                        <a href="orario_acquafitness.html"> <h3 id="area-link">Scopri gli orari del corso</h3></a>
+                                        <a href="#" id="orario"> <h3 id="area-link">Scopri gli orari del corso</h3></a>
                                         <a href="#"> <h3 id="area-link">Scopri la sala del corso</h3></a> 
                                         <a href="form_iscrizione_corso.html"> <h3 id="area-link">Iscriviti al corso</h3></a> 
                                     </div>

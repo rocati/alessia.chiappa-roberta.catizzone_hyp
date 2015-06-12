@@ -7,8 +7,7 @@ $lezione = array();
 
 require_once'dbclass.php';
 
-//SELEZIONO CORSI ACQUA
-$sql = "SELECT nomeCorso, ora,giorno,livello,istruttore,sala FROM lezione lez JOIN corso c ON c.idCorso = lez.id_corso ";
+$sql = "SELECT * FROM lezione AS l JOIN corsi AS c  ON l.id_corso=c.idCorso";
 $result =DB::getDB()->query($sql);
 while($row = mysqli_fetch_array($result))
 {
