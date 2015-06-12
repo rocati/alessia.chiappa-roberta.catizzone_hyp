@@ -16,6 +16,7 @@ function ready(){
             var descr="";
             var tipo="";
             var istruttore="";
+            var istruttore2="";
             var linkIstr="";
             var orario="";
             var cat=""; 
