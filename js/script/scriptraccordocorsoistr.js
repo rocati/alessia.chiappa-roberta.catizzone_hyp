@@ -7,7 +7,7 @@ function ready(){
         method: "POST",
         //dataType: "json", //type of data
         crossDomain: true, //localhost purposes
-        url: "../php/selectcorsi.php", //Relative or absolute path to file.php file
+        url: "http://biggymchiappacatizzone.altervista.org/php/selectcorsi.php", //Relative or absolute path to file.php file
         data: {"funzione": "istruttori","id":id},
         success: function(response) {
             var corsi=JSON.parse(response);

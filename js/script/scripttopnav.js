@@ -7,7 +7,7 @@ function ready(){
         method: "POST",
         //dataType: "json", //type of data
         crossDomain: true, //localhost purposes
-        url: "../php/selectcorsi.php", //Relative or absolute path to file.php file
+        url: "http://biggymchiappacatizzone.altervista.org/php/selectcorsi.php", //Relative or absolute path to file.php file
         data: {"funzione": "elenco"},
         success: function(response) {
             var corsi=JSON.parse(response);
@@ -17,7 +17,6 @@ function ready(){
             for(var i=0;i<corsi.length;i++){
                 var idCorso=corsi[i].idCorso;
                 var url="http://biggymchiappacatizzone.altervista.org/html/corso.html?id="+idCorso;
-                //el+="<li><a href='"+url+"'>"+corsi[i].nomeCorso+"</a></li>";  
                 el+="<a href='"+url+"'>"+corsi[i].nomeCorso+"</a>";
             }
 			el1+="<a href='../html/tutti_corsi.html'>Tutti i Corsi (A-Z)</a>";

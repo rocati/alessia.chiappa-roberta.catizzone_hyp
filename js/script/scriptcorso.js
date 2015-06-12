@@ -13,7 +13,7 @@ var button = $("#btn btn-danger").val();
         method: "POST",
         //dataType: "json", //type of data
         crossDomain: true, //localhost purposes
-        url: "../php/selectcorso.php", //Relative or absolute path to file.php file
+        url: "http://biggymchiappacatizzone.altervista.org/php/selectcorso.php", //Relative or absolute path to file.php file
         data: {course:id},
         success: function(response) {
             console.log("pippo");
