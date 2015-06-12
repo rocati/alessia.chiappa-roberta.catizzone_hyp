@@ -38,20 +38,20 @@ if($tipoFunzione=='dettaglio')
     // JSON ENCODE DEPENDING BY BUTTON
      print json_encode($istruttore);
 }
-//********************* ROBERTA 09.06.2015 23.47 ****************************
+
 if($tipoFunzione=='corsi')
 {
-    $sql ="SELECT * FROM corso_istruttore WHERE id=".$id;
+	$id=$_POST['id'];
+    $sql ="SELECT id,nome,idCorso,nomeCorso FROM istruttore AS i JOIN corsi AS c ON i.nome=c.istruttore WHERE id=".$id;
     $result =DB::getDB()->query($sql);
     while($row = mysqli_fetch_array($result))
     {
-        $istruttore[] = array("id" => $row['id'],"corso" => $row['corso']);
+        $istruttore[] = array("id" => $row['id'],"nome" => $row['nome'],"idCorso" => $row['idCorso'],"nomeCorso" => $row['nomeCorso']);
     }
 
 
     // JSON ENCODE DEPENDING BY BUTTON
      print json_encode($istruttore);
 }
-//********************* ROBERTA 09.06.2015 23.47 ****************************
 
 ?>

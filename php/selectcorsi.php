@@ -24,7 +24,7 @@ if($tipoFunzione=='dettaglio')
 
 if($tipoFunzione=='elenco')
 {
-    $sql ="SELECT idCorso, nomeCorso FROM corsi";
+    $sql ="SELECT idCorso, nomeCorso FROM corsi ORDER BY idCorso";
     $result =DB::getDB()->query($sql);
     while($row = mysqli_fetch_array($result))
     {

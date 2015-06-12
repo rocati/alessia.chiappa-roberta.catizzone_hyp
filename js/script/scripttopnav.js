@@ -15,7 +15,6 @@ function ready(){
             var el1="";
             var el2="";
             for(var i=0;i<corsi.length;i++){
-                console.log(corsi[i].nomeCorso);
                 var idCorso=corsi[i].idCorso;
                 var url="http://biggymchiappacatizzone.altervista.org/html/corso.html?id="+idCorso;
                 //el+="<li><a href='"+url+"'>"+corsi[i].nomeCorso+"</a></li>";  
@@ -25,8 +24,6 @@ function ready(){
             el2+="<a href='../html/tutti_corsi_livello.html'>Tutti i Corsi (Livelli)</a>";
             $("#tutticorsi").html(el1);
             $("#tuttilivello").html(el2);
-           // $(".top").html(el1);
-            console.log(el1);
             $("#eleconcorsi").html(el);
             
             

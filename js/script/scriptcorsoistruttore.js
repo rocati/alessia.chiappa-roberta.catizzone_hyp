@@ -12,17 +12,17 @@ function ready(){
         success: function(response) {
             var istruttori=JSON.parse(response);
             var el="";
+            var el1="";
            
             for(var i=0;i<istruttori.length;i++){
-                console.log(istruttori[i].corso);
-                var idIstruttore=istruttori[i].id;
-                console.log(istruttori[i].id)
-                console.log(istruttori[i].corso)
-				el="<h4 id='area-link'><a href="+istruttori[i].corso+".html id='area-link'> "+" "+"</a></h4>";
-                console.log(el)
+            	var url="http://biggymchiappacatizzone.altervista.org/html/corso.html?id="+istruttori[i].idCorso;
+				el+="<a href='"+url+"'  id='area-link'>"+istruttori[i].nomeCorso+"</a><br><br>";
+               
             }
+           el1="<h3 id='area-link'>I corsi di "+istruttori[1].nome+"</h3></h3>";
            
-            $("#corsiistruttore").html(el);
+           $("#titoloArea").html(el1);
+           $(".corsistruttore").html(el);
                   
         },
         error: function(request,error) 

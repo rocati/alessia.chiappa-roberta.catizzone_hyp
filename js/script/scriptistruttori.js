@@ -13,7 +13,6 @@ function ready(){
             var istruttori=JSON.parse(response);
             var el="";
             for(var i=0;i<istruttori.length;i++){
-                console.log(istruttori[i].nome);
                 var idIstruttore=istruttori[i].id;
                 var url="istruttore.html?id="+idIstruttore;
                 el+="<li><a href='"+url+"'>"+istruttori[i].nome+"</a></li>";                          
