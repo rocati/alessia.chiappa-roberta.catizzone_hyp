@@ -1,4 +1,5 @@
 <?php
+header("Access-Control-Allow-Origin: *");
 // Get value of clicked button
 //$button = $_GET['button'];
  
