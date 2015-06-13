@@ -1,8 +1,11 @@
+
 <?php error_reporting( E_ALL ); ?>
 
 
 <?php
 header("Access-Control-Allow-Origin: *");
+/****************************************COLLEGAMENTO AL SERVER************************************************/
+
 /*
 pattern Singleton
 serve per avere la certezza di avere una sola istanza della classe accessibile chiamando un metodo statico che 

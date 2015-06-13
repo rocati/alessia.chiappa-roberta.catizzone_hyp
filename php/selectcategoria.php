@@ -1,5 +1,8 @@
 <?php
-header("Access-Control-Allow-Origin: *");
+/**************************************************************************************************************
+ QUERY CATEGORIE CORSI
+***************************************************************************************************************/
+
 // creo array categoria
 $categoria = array();
 
@@ -17,4 +20,5 @@ require_once'dbclass.php';
 
           // JSON ENCODE DEPENDING BY BUTTON
             print json_encode($categoria);
+            
 ?>

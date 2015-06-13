@@ -1,5 +1,10 @@
 <?php
-header("Access-Control-Allow-Origin: *");
+/**************************************************************************************************************
+ QUERY: INFO RELATIVE ALLA LOCATION
+ tabelle utilizzate: location
+***************************************************************************************************************/
+
+
 // creo array location
 $location = array();
 
