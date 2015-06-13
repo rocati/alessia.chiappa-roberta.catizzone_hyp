@@ -1,4 +1,5 @@
 <?php
+header("Access-Control-Allow-Origin: *");
 /**************************************************************************************************************
  QUERY: INFO RELATIVE AGLI ORARI DEI CORSI
  tabelle utilizzate: lezione, corsi

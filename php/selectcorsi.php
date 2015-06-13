@@ -1,4 +1,5 @@
 <?php
+header("Access-Control-Allow-Origin: *");
 /**************************************************************************************************************
  QUERY: INFO RELATIVE AI CORSI
  tabelle utilizzate: istruttore, corsi, raccordo_ci

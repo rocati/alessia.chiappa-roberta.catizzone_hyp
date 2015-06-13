@@ -1,4 +1,5 @@
 <?php
+header("Access-Control-Allow-Origin: *");
 /**************************************************************************************************************
  QUERY: INFO RELATIVE AGLI ISTRUTTORI
  tabelle utilizzate: istruttore, corsi
