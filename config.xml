@@ -14,5 +14,7 @@
     <author href="https://build.phonegap.com" email="support@phonegap.com">
         Hardeep Shoker 
     </author>
+    
+    <access origin="http://biggymchiappacatizzone.altervista.org/" subdomains=true></access>
 
 </widget>
