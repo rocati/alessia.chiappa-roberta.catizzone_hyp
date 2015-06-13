@@ -22,7 +22,7 @@ private function __clone() { }
 public static function getDB(){
 	//se non esiste la crea
          if (self::$instance == null){
-              self::$instance = new self("biggymchiappacatizzone.altervista.org", "biggymchiappacatizzone","AlessiaRoberta", "my_biggymchiappacatizzone");
+              self::$instance = new self("localhost", "root","", "my_biggymchiappacatizzone");
          }
          return self::$instance ;
      }
