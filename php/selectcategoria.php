@@ -20,6 +20,11 @@ require_once'dbclass.php';
           }
 
           // JSON ENCODE DEPENDING BY BUTTON
-            print json_encode($categoria);
+           // print json_encode($categoria); 140615 
+           
+         $callback = $_GET['callback'];
+	$json = json_encode($categoria);
+	echo "{$callback}({$json})";
+           
             
 ?>
