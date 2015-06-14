@@ -12,7 +12,10 @@ PROJECT: TECHNOLOGY PART
 
 Template: http://bootstrapzero.com/bootstrap-template/nice-admin          (modified)
           http://startbootstrap.com/template-overviews/stylish-portfolio/ (for index.html only - modified)
-          
+
+Icons:    http://fortawesome.github.io/Font-Awesome/icons/
+
+Sidebar css/js :  http://tympanus.net/Development/SidebarTransitions/
 
 Frameworks: Bootstrap, JQuery, Javascript, PhP
 
