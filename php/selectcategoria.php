@@ -5,7 +5,7 @@ header("Access-Control-Allow-Origin: *");
 //echo "I'm the php";
 
 //connection to db
-$mysqli = new mysqli("localhost", "biggymchiappacatizzone"", "", "my_biggymchiappacatizzone");
+$mysqli = new mysqli("localhost", "biggymchiappacatizzone"", "AlessiaRoberta", "my_biggymchiappacatizzone");
 
 if (mysqli_connect_errno()) { //verify connection
     echo "Error to connect to DBMS: ".mysqli_connect_error(); //notify error
