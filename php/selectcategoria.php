@@ -1,25 +1,38 @@
 <?php
-header("Access-Control-Allow-Origin: *");
-/**************************************************************************************************************
- QUERY CATEGORIE CORSI
-***************************************************************************************************************/
+//get all the course from db and reply using json structure
 
-// creo array categoria
-$categoria = array();
+//echo "I'm the php";
 
-// creo array per tutte le categorie
+//connection to db
+$mysqli = new mysqli("localhost", "biggymchiappacatizzone"", "", "my_biggymchiappacatizzone");
 
-require_once'dbclass.php';
+if (mysqli_connect_errno()) { //verify connection
+    echo "Error to connect to DBMS: ".mysqli_connect_error(); //notify error
+    exit(); //do nothing else 
+}
+else {
+    //echo "Successful connection"; // connection ok
 
-	  
-          $sql = "SELECT idCategoria, nomeCategoria FROM categoria ORDER BY idCategoria";
-          $result =DB::getDB()->query($sql);
-          while($row = mysqli_fetch_array($result))
-          {
-              $categoria[] = array("idCategoria" => $row['idCategoria'],"nomeCategoria" => $row['nomeCategoria']);
-          }
+    # extract results mysqli_result::fetch_array
+    $query = "SELECT idCategoria, nomeCategoria FROM categoria ORDER BY idCategoria";
+    //query execution
+    $result = $mysqli->query($query);
+    //if there are data available
+    if($result->num_rows >0)
+    {
+        $myArray = array();//create an array
+        while($row = $result->fetch_array(MYSQL_ASSOC)) {
+            $myArray[] = array_map('utf8_encode', $row);	//<----- CORRECT HERE		
+        }
+        echo json_encode($myArray);
+    }
 
-          // JSON ENCODE DEPENDING BY BUTTON
-            print json_encode($categoria);
-            
-?>
+    //free result
+    $result->close();
+
+    //close connection
+    $mysqli->close();
+
+
+
+}
