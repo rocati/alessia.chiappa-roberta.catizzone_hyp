@@ -20,7 +20,7 @@ require_once'dbclass.php';
           }
 
           // JSON ENCODE DEPENDING BY BUTTON
-          echo json_encode($categoria);  
+          print json_encode($categoria);  
        
            
             
