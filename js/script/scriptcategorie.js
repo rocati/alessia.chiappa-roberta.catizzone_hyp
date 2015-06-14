@@ -4,10 +4,8 @@ function ready(){
  console.log("I'm ready!");
     var id=1;
     $.ajax({
-        //method: "POST",
-        //dataType: "json", //type of data
-        method: 'GET',
-        dataType: 'jsonp',
+        method: "POST",
+        dataType: "json", //type of data
         crossDomain: true, //localhost purposes
         url: 'http://biggymchiappacatizzone.altervista.org/php/selectcategoria.php', //Relative or absolute path to file.php file
         data: {course:id},
@@ -56,14 +54,11 @@ function ready(){
             $("#colonna2").html(el2);
             $("#colonna3").html(el3);
         },
-        //error: function(request,error) 
-        //{
-           // console.log("Error");
-        //}
-        
-        error: function(XMLHttpRequest, textStatus, errorThrown) { 
-        alert("Status: " + textStatus); alert("Error: " + errorThrown); 
+        error: function(request,error) 
+        {
+           console.log("Error");
         }
+      
     });
 }
 
